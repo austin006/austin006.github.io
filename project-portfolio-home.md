@@ -4,7 +4,7 @@ title: Project Portfolio
 description: This is the homepage for my projects
 ---
 
-Welcome to my project portfolio. Projects are listed with the most recent at the top. 
+Welcome to my project portfolio. Enjoy exploring the various projects I have done. 
 
 # Highlighted Projects
 
@@ -12,16 +12,18 @@ These projects are my favorites and contributed significantly to my learning and
 
 <dl>
 <dt>CAD Portfolio</dt>
-<dd>Brief description. Learn more.</dd>
+<dd>Description coming soon. Learn more.</dd>
 <dt>Rocket Water Ballast System</dt>
 <dd>Followed a complete engineering design process to create a functioning water ejection system for a high altitude rocket. <a href="https://austin006.github.io/Projects/water-ballast.html">Learn more.</a></dd>
 <dt>Aerodynamic Analysis and Optimization</dt>
-<dd>Brief description. Learn more.</dd>
+<dd>Description coming soon. Learn more.</dd>
 <dt>Rocket with H Level Motor</dt>
-<dd>Brief description. Learn more.</dd>
+<dd>Description coming soon. Learn more.</dd>
 </dl>
 
 # Completed Projects
+
+Projects are organized from newest to oldest. Click the name to visit the project page.
 
 | Name                                  | Start Date     | End Date       | Hours |
 |:--------------------------------------|:---------------|:---------------|:------|
