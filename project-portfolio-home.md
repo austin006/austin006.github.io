@@ -1,10 +1,14 @@
 ---
 layout: default
+title: Project Portfolio
+description: This is the homepage for my projects
 ---
 
 Welcome to my project portfolio. Projects are listed with the most recent at the top. 
 
 # Highlighted Projects
+
+Here will be listed my most impressive projects.
 
 # List of Projects
 
