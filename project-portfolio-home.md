@@ -12,13 +12,13 @@ These projects are my favorites and contributed significantly to my learning and
 
 <dl>
 <dt>CAD Portfolio</dt>
-<dd>Brief description. [Learn more.]</dd>
+<dd>Brief description. Learn more.</dd>
 <dt>Rocket Water Ballast System</dt>
-<dd>Followed a complete design process to create a functioning water ejection system. [Learn more.](https://austin006.github.io/Projects/water-ballast.html)</dd>
+<dd>Followed a complete engineering design process to create a functioning water ejection system for a high altitude rocket. <a href="https://austin006.github.io/Projects/water-ballast.html">Learn more.</a></dd>
 <dt>Aerodynamic Analysis and Optimization</dt>
-<dd>Brief description. [Learn more.]</dd>
+<dd>Brief description. Learn more.</dd>
 <dt>Rocket with H Level Motor</dt>
-<dd>Brief description. [Learn more.]</dd>
+<dd>Brief description. Learn more.</dd>
 </dl>
 
 # Completed Projects
@@ -44,10 +44,10 @@ These projects are my favorites and contributed significantly to my learning and
 | Name                                       | Start Date |
 |:-------------------------------------------|:-----------|
 | Build a personal website                   | January 2025 |
-| Graphing the Fourier Series                | January 2025 | 
+| Graph Fourier Series with Python           | January 2025 | 
 | CAD Portfolio (ME EN 272)                  | January 2025 |
 | Light following robot (EC EN 301)          | January 2025 |
 | Complier built from scratch (CS 236)       | January 2025 |
-| Relevant coursework / skill list           | TBD |
+| Create list of relevant coursework/skills  | TBD |
 | Start a business                           | TBD |
-| Add CS 111 and CS 235 projects onto Github | TBD |
+| Add CS 111 and CS 235 projects to Github   | TBD |

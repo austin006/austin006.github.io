@@ -1,6 +1,6 @@
 This website serves as an online resume and project portfolio. It is intended to be used in order to highlight my experience and accomplishments. 
 
-See my project portfolio [here](./project-portfolio-home.html) or read on below to learn more about me.
+See my project portfolio [here](./project-portfolio-home.html) or keep on reading below to learn more about me.
 
 # Who am I?
 
