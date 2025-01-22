@@ -8,16 +8,27 @@ Welcome to my project portfolio. Projects are listed with the most recent at the
 
 # Highlighted Projects
 
-Here will be listed my most impressive projects.
+These projects are my favorites and contributed significantly to my learning and growth.
 
-# List of Projects
+<dl>
+<dt>CAD Portfolio</dt>
+<dd>Brief description. [Learn more.]</dd>
+<dt>Rocket Water Ballast System</dt>
+<dd>Followed a complete design process to create a functioning water ejection system. [Learn more.](https://austin006.github.io/Projects/water-ballast.html)</dd>
+<dt>Aerodynamic Analysis and Optimization</dt>
+<dd>Brief description. [Learn more.]</dd>
+<dt>Rocket with H Level Motor</dt>
+<dd>Brief description. [Learn more.]</dd>
+</dl>
+
+# Completed Projects
 
 | Name                                  | Start Date     | End Date       | Hours |
 |:--------------------------------------|:---------------|:---------------|:------|
 | [Rocket Water Ballast System](https://austin006.github.io/Projects/water-ballast.html)  | September 2024       | April 2025     |  50  |
 | Gear Motion Project                               | December 2024     | December 2024       | 5 |
 | Motion Analysis of Backflips                      | November 2024     | November 2024       | 15 |
-| Aerodynamic Analysis and Optimication             | October 2023      | April 2024       | 90 |
+| Aerodynamic Analysis and Optimization             | October 2023      | April 2024       | 90 |
 | Rocket Payload Electronics                        | January 2024      | April 2024 | 35 |
 | Rocket with H Level Motor                         | January 2024      | April 2024 | 30 |
 | Distance Measurement Through Triangulation        | February 2024     | February 2024 | 15 |
@@ -34,7 +45,6 @@ Here will be listed my most impressive projects.
 |:-------------------------------------------|:-----------|
 | Build a personal website                   | January 2025 |
 | Graphing the Fourier Series                | January 2025 | 
-<!-- put this code on github, can use diff eq problems from desmos, highlight combo of math and CS -->
 | CAD Portfolio (ME EN 272)                  | January 2025 |
 | Light following robot (EC EN 301)          | January 2025 |
 | Complier built from scratch (CS 236)       | January 2025 |
