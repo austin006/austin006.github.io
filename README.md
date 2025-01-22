@@ -4,7 +4,7 @@ See my project portfolio [here](./project-portfolio-home.html) or read on below 
 
 # Who am I?
 
-My name is Austin. I love to learn and am constantly trying out new things. Whether it is a new skill like juggling or more random singing the alphabet backwards, I am driven to learn. In fact, that's pretty much why I made this website, it started as a cool thought I had and grew into it's current state... keep writing the rest of my bio.
+My name is Austin. I love to learn and am constantly trying out new things. Whether it is a new skill like juggling or something more random like singing the alphabet backwards, I am driven to learn. In fact, that's pretty much why I made this website, it started as a cool thought I had and grew into it's current state... keep writing the rest of my bio.
 
 # Resume
 
