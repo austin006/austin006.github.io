@@ -14,7 +14,7 @@ Here will be listed my most impressive projects.
 
 | Name                                  | Start Date     | End Date       | Hours |
 |:--------------------------------------|:---------------|:---------------|:------|
-| [Rocket Water Ballast System](./Projects/water-ballast.html)           | Sep 2024       | April 2025     |  ~72  |
+| [Rocket Water Ballast System](https://austin006.github.io/Projects/water-ballast.html)           | Sep 2024       | April 2025     |  ~72  |
 | Add project name                      | add date       | add date       | hours |
 | Add name                              | add date       | add date       | hours |
 | Add name                              | add date       | add date       | hours |
