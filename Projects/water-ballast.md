@@ -10,7 +10,7 @@ Project was completed over the course of my sophmore year from September 2024 - 
 
 ## Description and Objectives
 
-My role was payload engineer on the Experimental High Power Team of BYU Rocketry.
+My role was payload engineer on the Experimental High Power Team of [BYU Rocketry](https://rocketry.byu.edu/).
 
 ## Result
 
