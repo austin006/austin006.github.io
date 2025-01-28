@@ -18,24 +18,17 @@ In fact, that's pretty much the motivation behind creating this website, I thoug
 
 * * *
 
-### EDUCATION
+## EDUCATION
 
-**B.S. Mechanical Engineering**
+**B.S. Mechanical Engineering; Minor in Computer Science**, _Brigham Young University_
+    - April 2027
+    - GPA: 3.94
 
-_Brigham Young University_
-
-Provo, UT
-
-April 2027
-
-* Minor in Computer Science
-* GPA: 3.94
-
-### ENGINEERING RELATED EXPERIENCE
+## ENGINEERING RELATED EXPERIENCE
 
 See my [project portfolio](./project-portfolio-home.html)
 
-### HARD SKILLS
+## HARD SKILLS
 
 | Skill | Hours | Related Projects |
 |:-------------|:----------|:--------|
@@ -50,44 +43,38 @@ See my [project portfolio](./project-portfolio-home.html)
 | Portuguese | 2 Years | Volunteer Experience |
 | Spanish | 40 | Volunteer Experience |
 
-### OTHER WORK EXPERIENCE
+## OTHER WORK EXPERIENCE
 
 - **Youth Summer Camp Counselor**, _FSY_
     - May 2024 - July 2024
     - Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment
+
 - **Sales Representative**, _Pure Energy_
     - July 2023 - September 2023
     - Drove sales through upselling products based on customer needs, concerns, and preferences
+
 - **Cook**, _Zaxby's_
     - June 2020 - June 2021
     - Employee of the Month Award (August 2020)
     - Trained in food safety and handling, DSHS-Approved Food Handler Training
+
 - **Soccer Referee**, _South Texas Soccer Referees_
     - May 2019 - June 2021
     - Certified STSR referee for 2019, 2020, 2021, & 2024
     - Educated athletes, coaches and fellow officials about game rules and regulations
 
-### VOLUNTEER SERVICE
+## VOLUNTEER SERVICE
 
-**Full-Time Volunteer**
+- **Full-Time Volunteer**, _The Church of Jesus Christ of Latter-day Saints_, Brazil
+    - July 2021 - July 2023
+    - Met, conversed with, and taught over 50 individuals and families on a weekly basis
+    - Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for groups of 20-30 full-time volunteers
+    - Supervised as Financial Administrator for 8 months managing 30+ houses and apartments
+    - Taught English as a second language to 5-8 community members weekly
 
-_The Church of Jesus Christ of Latter-day Saints_
-
-Vitória, ES, Brazil
-
-July 2021 - July 2023
-
-* Met, conversed with, and taught over 50 individuals and families on a weekly basis
-* Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for
-groups of 20-30 full-time volunteers
-* Supervised as Financial Administrator for 8 months managing 30+ houses and apartments
-* Taught English as a second language to 5-8 community members weekl
-
-### OTHER
+## OTHER
 
 * Proficient pianist, organist, and violinist
 * High School Varsity Soccer Captain
 
-
-
-_Last updated on January 28, 2025_
+_Last updated January 28, 2025_
