@@ -4,7 +4,7 @@ Navigate to my project portfolio [here](./project-portfolio-home.html) or keep o
 
 # Who am I?
 
-<img src="Image/profile.jpg" alt="Profile Picture" width="500" height="500">
+<img src="Images/profile.jpg" alt="Profile Picture" width="500" height="500">
 
 My name is Austin. I love to learn and am constantly trying out new things. My continual thrist for knowledge, and being willing to seek it out, has cultivated my passion for self-advacement in all aspects of my life. Whether it is studying for a difficult class, learning to juggle on a unicycle, doing a backflip, or even more random, singing the alphabet backwards, I am driven to learn. 
 
