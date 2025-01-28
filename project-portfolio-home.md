@@ -56,6 +56,7 @@ Projects are organized from newest to oldest. Click the name to visit the projec
 | CAD Portfolio (ME EN 272)                  | January 2025 |
 | Light following robot (EC EN 301)          | January 2025 |
 | Complier built from scratch (CS 236)       | January 2025 |
+| ALC Rocket                                 | January 2025 |
 | Create list of relevant coursework/skills  | TBD |
 | Start a business                           | TBD |
 | Add CS 111 and CS 235 projects to Github   | TBD |
