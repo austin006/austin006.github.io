@@ -20,9 +20,16 @@ In fact, that's pretty much the motivation behind creating this website, I thoug
 
 ## EDUCATION
 
-**B.S. Mechanical Engineering; Minor in Computer Science**, _Brigham Young University_
-    - April 2027
-    - GPA: 3.94
+<dl>
+    <dt><b>B.S. Mechanical Engineering; Minor in Computer Science</b></dt>
+    <dd>
+        <i>Brigham Young University</i>, Provo, UT
+        <ul>
+            <li>April 2027</li>
+            <li>GPA: 3.94</li>
+        </ul>
+    </dd>
+</dl>
 
 ## ENGINEERING RELATED EXPERIENCE
 
@@ -45,6 +52,41 @@ See my [project portfolio](./project-portfolio-home.html)
 
 ## OTHER WORK EXPERIENCE
 
+<dl>
+    <dt><b>Youth Summer Camp Counselor</b>, <i>FSY</i></dt>
+    <dd>
+        May 2024 - July 2024, California, Utah, Arizona
+        <ul>
+            <li>Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment</li>
+            <li>blah</li>
+            <li>blah</li>
+        </ul>
+    </dd>
+    <dt><b>Sales Representative</b>, <i>Pure Energy</i></dt>
+    <dd>
+        July 2023 - September 2023, Houston, TX
+        <ul>
+            <li>Drove sales through upselling products based on customer needs, concerns, and preferences</li>
+        </ul>
+    </dd>
+    <dt><b>Cook</b>, <i>Zaxby's</i></dt>
+    <dd>
+        June 2020 - June 2021, Houston, TX
+        <ul>
+            <li>Employee of the Month Award (August 2020)</li>
+            <li>Trained in food safety and handling, DSHS-Approved Food Handler Training</li>
+        </ul>
+    </dd>
+    <dt><b>Soccer Referee</b>, <i>South Texas Soccer Referees</i></dt>
+    <dd>
+        May 2019 - June 2021, Houston, TX
+        <ul>
+            <li>Certified STSR referee for 2019, 2020, 2021, & 2024</li>
+            <li>Educated athletes, coaches and fellow officials about game rules and regulations</li>
+        </ul>
+    </dd>
+</dl>
+
 - **Youth Summer Camp Counselor**, _FSY_
     - May 2024 - July 2024
     - Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment
@@ -65,7 +107,20 @@ See my [project portfolio](./project-portfolio-home.html)
 
 ## VOLUNTEER SERVICE
 
-- **Full-Time Volunteer**, _The Church of Jesus Christ of Latter-day Saints_, Brazil
+<dl>
+    <dt><b>Full-Time Volunteer</b>, <i>The Church of Jesus Christ of Latter-day Saints</i></dt>
+    <dd>
+        July 2021 - July 2023, Vitória, Brazil
+        <ul>
+            <li>Met, conversed with, and taught over 50 individuals and families on a weekly basis</li>
+            <li>Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for groups of 20-30 full-time volunteers</li>
+            <li>Supervised as Financial Administrator for 8 months managing 30+ houses and apartments</li>
+            <li>Taught English as a second language to 5-8 community members weekly</li>
+        </ul>
+    </dd>
+</dl>
+
+- **Full-Time Volunteer**, _The Church of Jesus Christ of Latter-day Saints_
     - July 2021 - July 2023
     - Met, conversed with, and taught over 50 individuals and families on a weekly basis
     - Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for groups of 20-30 full-time volunteers
