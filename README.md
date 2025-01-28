@@ -18,29 +18,22 @@ In fact, that's pretty much the motivation behind creating this website, I thoug
 
 * * *
 
-Resume content was last updated on January 28, 2025.
-
-<details>
-    <summary>Click to Expand</summary>
-    <p># will this work?
-    
-    > trying to do  block quote with html
-    >
-    > did it work?
-    </p>
-</details>
-
 ### EDUCATION
 
-> **B.S. Mechanical Engineering**
-> _Brigham Young University_, Provo, UT
-> April 2027
-> * Minor in Computer Science
-> * GPA: 3.94
+**B.S. Mechanical Engineering**
+
+_Brigham Young University_
+
+Provo, UT
+
+April 2027
+
+* Minor in Computer Science
+* GPA: 3.94
 
 ### ENGINEERING RELATED EXPERIENCE
 
-> See my [project portfolio](./project-portfolio-home.html)
+See my [project portfolio](./project-portfolio-home.html)
 
 ### HARD SKILLS
 
@@ -59,28 +52,31 @@ Resume content was last updated on January 28, 2025.
 
 ### OTHER WORK EXPERIENCE
 
-- **Youth Summer Camp Counselor**
-    - _FSY_, Arizona, California, Utah
+- **Youth Summer Camp Counselor**, _FSY_
     - May 2024 - July 2024
-    - Description
-- **Sales Representative**
-    - _Pure Energy_, Houston, TX
+    - Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment
+- **Sales Representative**, _Pure Energy_
     - July 2023 - September 2023
-    - Decription
-- **Cook**
-    - _Zaxby's_, Houston, TX
+    - Drove sales through upselling products based on customer needs, concerns, and preferences
+- **Cook**, _Zaxby's_
     - June 2020 - June 2021
-    - Description
-- **Soccer Referee**
-    - _South Texas Soccer Referees_, Houston, TX
+    - Employee of the Month Award (August 2020)
+    - Trained in food safety and handling, DSHS-Approved Food Handler Training
+- **Soccer Referee**, _South Texas Soccer Referees_
     - May 2019 - June 2021
-    - Description
+    - Certified STSR referee for 2019, 2020, 2021, & 2024
+    - Educated athletes, coaches and fellow officials about game rules and regulations
 
 ### VOLUNTEER SERVICE
 
 **Full-Time Volunteer**
-_The Church of Jesus Christ of Latter-day Saints_, Vitória, ES, Brazil
+
+_The Church of Jesus Christ of Latter-day Saints_
+
+Vitória, ES, Brazil
+
 July 2021 - July 2023
+
 * Met, conversed with, and taught over 50 individuals and families on a weekly basis
 * Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for
 groups of 20-30 full-time volunteers
@@ -91,3 +87,7 @@ groups of 20-30 full-time volunteers
 
 * Proficient pianist, organist, and violinist
 * High School Varsity Soccer Captain
+
+
+
+_Last updated on January 28, 2025_
