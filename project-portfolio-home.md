@@ -8,6 +8,8 @@ Welcome to my project portfolio. Enjoy exploring the various projects I have don
 
 # Highlighted Projects
 
+* * *
+
 These projects are my favorites and contributed significantly to my learning and growth.
 
 <dl>
@@ -22,6 +24,8 @@ These projects are my favorites and contributed significantly to my learning and
 </dl>
 
 # Completed Projects
+
+* * *
 
 Projects are organized from newest to oldest. Click the name to visit the project page.
 
@@ -42,6 +46,8 @@ Projects are organized from newest to oldest. Click the name to visit the projec
 | Grave Indexing (Eagle Scout Project)              | May 2017          | May 2017 | 129 |
 
 # Current/Future Projects
+
+* * *
 
 | Name                                       | Start Date |
 |:-------------------------------------------|:-----------|
