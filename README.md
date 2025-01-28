@@ -52,7 +52,7 @@ See my [project portfolio](./project-portfolio-home.html)
 
 ## OTHER WORK EXPERIENCE
 
-<dl>
+<!-- <dl>
     <dt><b>Youth Summer Camp Counselor</b>, <i>FSY</i></dt>
     <dd>
         May 2024 - July 2024<br>California, Utah, Arizona
@@ -83,19 +83,27 @@ See my [project portfolio](./project-portfolio-home.html)
             <li>Educated athletes, coaches and fellow officials about game rules and regulations</li>
         </ul>
     </dd>
-</dl>
+</dl> -->
 
-**Youth Summer Camp Counselor**, _FSY_ <br>May 2024 - July 2024
+**Youth Summer Camp Counselor**, _FSY_ 
+<br>    May 2024 - July 2024
+
    - Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment
 
-**Sales Representative**, _Pure Energy_<br>July 2023 - September 2023
+**Sales Representative**, _Pure Energy_
+<br>    July 2023 - September 2023
+
    - Drove sales through upselling products based on customer needs, concerns, and preferences
 
-**Cook**, _Zaxby's_<br>June 2020 - June 2021
+**Cook**, _Zaxby's_
+<br>    June 2020 - June 2021
+
    - Employee of the Month Award (August 2020)
    - Trained in food safety and handling, DSHS-Approved Food Handler Training
 
-**Soccer Referee**, _South Texas Soccer Referees_<br>May 2019 - June 2021
+**Soccer Referee**, _South Texas Soccer Referees_
+<br>    May 2019 - June 2021
+
    - Certified STSR referee for 2019, 2020, 2021, & 2024
    - Educated athletes, coaches and fellow officials about game rules and regulations
 
@@ -114,12 +122,14 @@ See my [project portfolio](./project-portfolio-home.html)
     </dd>
 </dl>
 
-<!-- - **Full-Time Volunteer**, _The Church of Jesus Christ of Latter-day Saints_
-    - July 2021 - July 2023
-    - Met, conversed with, and taught over 50 individuals and families on a weekly basis
-    - Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for groups of 20-30 full-time volunteers
-    - Supervised as Financial Administrator for 8 months managing 30+ houses and apartments
-    - Taught English as a second language to 5-8 community members weekly -->
+- **Full-Time Volunteer**, _The Church of Jesus Christ of Latter-day Saints_
+<br>    July 2021 - July 2023
+<br>    Vitória, Brazil
+
+-  Met, conversed with, and taught over 50 individuals and families on a weekly basis
+- Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for groups of 20-30 full-time volunteers
+- Supervised as Financial Administrator for 8 months managing 30+ houses and apartments
+- Taught English as a second language to 5-8 community members weekly
 
 ## OTHER
 
