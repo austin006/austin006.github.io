@@ -37,7 +37,7 @@ Projects are organized from newest to oldest. Click the name to visit the projec
 | Rocket with G Level Motor                         | September 2023    | December 2023 | 30 |
 | FEMTOSAT                                          | September 2023    | December 2023     | 20 |
 | RC Plane                                          | September 2023    | December 2023     | 20 |
-| NASA Egineering Challenge                         | October 2019      | April 2020 | 30 |
+| NASA Engineering Challenge                        | October 2019      | April 2020 | 30 |
 | Pull Up Bar                                       | December 2019     | December 2019     | 5 |
 | Grave Indexing (Eagle Scout Project)              | May 2017          | May 2017 | 129 |
 
