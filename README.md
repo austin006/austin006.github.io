@@ -25,7 +25,7 @@ In fact, that's pretty much the motivation behind creating this website, I thoug
     <dd>
         <i>Brigham Young University</i>, Provo, UT
         <ul>
-            <li>April 2027</li>
+            <li>Graduation: April 2027</li>
             <li>GPA: 3.94</li>
         </ul>
     </dd>
@@ -58,8 +58,6 @@ See my [project portfolio](./project-portfolio-home.html)
         May 2024 - July 2024, California, Utah, Arizona
         <ul>
             <li>Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment</li>
-            <li>blah</li>
-            <li>blah</li>
         </ul>
     </dd>
     <dt><b>Sales Representative</b>, <i>Pure Energy</i></dt>
@@ -106,6 +104,19 @@ See my [project portfolio](./project-portfolio-home.html)
     - Educated athletes, coaches and fellow officials about game rules and regulations
 
 ## VOLUNTEER SERVICE
+
+**Full-Time Volunteer in Brazil**, _The Church of Jesus Christ of Latter-day Saints_
+<dl>
+    <dd>
+        July 2021 - July 2023
+        <ul>
+            <li>Met, conversed with, and taught over 50 individuals and families on a weekly basis</li>
+            <li>Organized and led 10+ workshops on goal setting, relationship building, and leadership skills for groups of 20-30 full-time volunteers</li>
+            <li>Supervised as Financial Administrator for 8 months managing 30+ houses and apartments</li>
+            <li>Taught English as a second language to 5-8 community members weekly</li>
+        </ul>
+    </dd>
+</dl>
 
 <dl>
     <dt><b>Full-Time Volunteer</b>, <i>The Church of Jesus Christ of Latter-day Saints</i></dt>
