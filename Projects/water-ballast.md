@@ -6,7 +6,9 @@ description: September 2024 - April 2025
 
 ## Timeline
 
-Project was completed over the course of my sophmore year from September 2024 - April 2025. Time commitment was between 1-2 hours a week for 32 weeks, totaling 50 hours spent on the project.
+Project was completed over the course of my sophmore year from September 2024 - April 2025. Time commitment was between 1-2 hours a week for 32 weeks.
+
+Total time: 50 hours
 
 ## Description and Objectives
 

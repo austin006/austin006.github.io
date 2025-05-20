@@ -23,7 +23,7 @@ In fact, that's pretty much the motivation behind creating this website, I thoug
 **B.S. Mechanical Engineering; Minor in Computer Science**
 <br><i>Brigham Young University</i>, Provo, UT
 
--  Graduation: April 2027
+- Graduation: April 2027
 - GPA: 3.94
 
 ## ENGINEERING RELATED EXPERIENCE
@@ -47,23 +47,23 @@ See my [project portfolio](./project-portfolio-home.html)
 
 ## OTHER WORK EXPERIENCE
 
-**Youth Summer Camp Counselor**, _FSY_ 
+**Youth Summer Camp Counselor**, [_FSY_](https://www.churchofjesuschrist.org/youth/childrenandyouth/fsy/about/youth?lang=eng)
 <br>May 2024 - July 2024
 
    - Led and mentored 150+ youth while developing interpersonal skills and gain professional leadership experience in a high-energy, religious-centered environment
 
-**Sales Representative**, _Pure Energy_
+**Sales Representative**, [_Pure Energy_](https://pure.solar/)
 <br>July 2023 - September 2023
 
    - Drove sales through upselling products based on customer needs, concerns, and preferences
 
-**Cook**, _Zaxby's_
+**Cook**, [_Zaxby's_](https://www.zaxbys.com/)
 <br>June 2020 - June 2021
 
    - Employee of the Month Award (August 2020)
    - Trained in food safety and handling, DSHS-Approved Food Handler Training
 
-**Soccer Referee**, _South Texas Soccer Referees_
+**Soccer Referee**, [_South Texas Soccer Referees_](https://www.stxref.org/)
 <br>May 2019 - June 2021
 
    - Certified STSR referee for 2019, 2020, 2021, & 2024
@@ -71,7 +71,7 @@ See my [project portfolio](./project-portfolio-home.html)
 
 ## VOLUNTEER SERVICE
 
-**Full-Time Volunteer**, _The Church of Jesus Christ of Latter-day Saints_
+**Full-Time Volunteer**, [_The Church of Jesus Christ of Latter-day Saints_](https://www.churchofjesuschrist.org/?lang=eng)
 <br>July 2021 - July 2023
 <br>Vitória, Brazil
 
