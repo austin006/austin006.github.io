@@ -11,11 +11,11 @@ Navigate to my project portfolio [here](./project-portfolio-home.html) or keep o
   <img src="/Images/profile.jpg" alt="Profile Picture" width="300" height="300">
 </div>
 
-My name is Austin. I love to learn and am constantly trying out new things. My motivation to obtain new knowledge, and perseverance to seek it out, has cultivated my passion for self-advacement in all aspects of my life. Whether it is studying for a difficult class, learning to juggle on a unicycle, doing a backflip, or anything else, I am driven to learn. 
+My name is Austin. I love to learn and am constantly trying out new things. My motivation to obtain new knowledge and my perseverance to seek it out have cultivated my passion for self-advacement in all aspects of my life. Whether it is studying for a difficult class, learning to juggle on a unicycle, doing a backflip, or anything else, I am driven to learn. 
 
 In fact, that's pretty much the motivation behind creating this website, I thought it would be cool to build my own website and so I decided to learn how.
 
-## ENGINEERING RELATED EXPERIENCE
+## ENGINEERING EXPERIENCE
 
 See my [project portfolio](./project-portfolio-home.html)
 
