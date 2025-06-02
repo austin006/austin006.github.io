@@ -1,36 +1,48 @@
-site_name: My MkDocs Material Documentation
-site_url: https://sitename.example
+site_name: Austin McGlashan
+site_description: Austin McGlashan's personal website.
+site_url: https://austin006.github.io/
+site_author: Austin McGlashan
+
 theme:
   name: material
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
-  logo: assets/favicon.png
+    text: Roboto
+    code: Roboto Mono
   # logo: assets/Initials.png
-  # icon:
-  #   logo: fontawesome/solid/m
-  favicon: assets/favicon.ico
+  icon:
+    logo: fontawesome/solid/m
+  favicon: /assets/favicon.ico
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.select
+
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: amber
-      accent: light blue
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue grey
+      accent: deep orange
 
     # Light Mode
     - scheme: default
       toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: teal
+      accent: pink
 
 markdown_extensions:
 - attr_list
+- md_in_html
 - pymdownx.emoji:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -53,8 +65,27 @@ markdown_extensions:
 extra:
   social:
     - icon: simple/youtube
-      link: https://youtube.com/@james-willett
+      link: https://www.youtube.com/@austinmcglashan006
     - icon: material/linkedin
-      link: https://linkedin.com/in/willettjames
+      link: https://www.linkedin.com/in/austin-mcglashan-006/
+    - icon: simple/github
+      link: https://github.com/austin006
 
-copyright: Copyright &copy; 2024 James Willett
+copyright: |
+  &copy; 2025 <a href="https://github.com/austin006"  target="_blank" rel="noopener">Austin McGlashan</a>
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: 
+    - Highlighted Projects: project-portfolio/project-portfolio-highlighted.md
+    - Completed Projects: project-portfolio/project-portfolio-completed.md
+    - Future Projects: project-portfolio/project-portfolio-future.md
+  - Example Pages:
+    - admonitions: examples/admonitions.md
+    - code: examples/code-examples.md
+    - content: examples/content-tabs.md
+    - diagrams: examples/diagram-examples.md
+    - homepage: examples/example-homepage.md
+  - Github: https://github.com/austin006
+  - LinkedIn: https://www.linkedin.com/in/austin-mcglashan-006/

@@ -12,7 +12,7 @@ Total time: 50 hours
 
 ## Description and Objectives
 
-My role was payload engineer on the Experimental High Power Team of [BYU Rocketry](https://rocketry.byu.edu/).
+My role was payload engineer on the Experimental High Power Team of [BYU Rocketry](https://rocketry.byu.edu/). Followed a complete engineering design process to create a functioning water ejection system for a high altitude rocket
 
 ## Result
 

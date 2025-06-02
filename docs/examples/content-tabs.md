@@ -1,6 +1,6 @@
 ## Content Tabs
 
-This is some examples of content tabs.
+These are some examples of content tabs.
 
 ### Generic Content
 
