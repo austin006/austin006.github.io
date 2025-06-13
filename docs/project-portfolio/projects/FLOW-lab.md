@@ -1,34 +1,80 @@
----
-layout: default
-title: Aerodynamic Analysis and Optimization
-description: October 2023 - April 2024
----
+# Aerodynamic Analysis and Optimization
 
-## Timeline
+[:simple-github: Github Repository](https://github.com/austin006/497R-Airframe-Design){ .md-button .md-button--primary }
 
-Project was completed over the course of my freshman year from October 2023 - April 2024. Time commitment was between 2-3 hours a week for 32 weeks.
+## :material-notebook: Description
 
-Total time: 80 hours
+This project consisted of **aerodynamic analysis** and **design optimization**, focusing on creating an optimal wing configuration for a simple airframe. Key characteristics such as chord and twist were optimized under specific conditions by leveraging the Julia packages **VortexLattice** for aerodynamic modeling and **SNOW** for its advanced nonlinear optimization and derivative computation capabilities.
 
-## Description and Objectives
+!!! info "Info"
 
-I completed this project as an undergraduate researcher in the [BYU FLOW Lab](https://flow.byu.edu/) under the guidance of a graduate student mentor.
+    I completed this project as an undergraduate researcher in the [BYU FLOW Lab](https://flow.byu.edu/) under the guidance of a graduate student mentor. This project is based upon the [Airframe Design Track](https://github.com/byuflowlab/undergrad-onboarding/blob/master/497R/track_descriptions/airframe_design.md).
 
-## Result
+***
 
-Here is a presentation of the project I completed...
+## :material-target: Objectives
 
-<img src="Images/FLOW1.jpg" alt="FLOW1" width="300" height="300">
-<img src="Images/FLOW2.jpg" alt="FLOW2" width="300" height="300">
-<img src="Images/FLOW3.jpg" alt="FLOW3" width="300" height="300">
-<img src="Images/FLOW4.jpg" alt="FLOW4" width="300" height="300">
+1. Airfoil analysis performed through computational fluid dynamics (CFD) simulations
+2. Airframe analysis performed through the vortex lattice method (VLM)
+3. Optimization of airframe aerodynamic design
 
-## Technical Details and Skills
+***
 
-I gained many new skills in the proccess of this project:
+## :material-clock-time-five: Timeline
 
-**Julia (programming language)**
-<br> A fast a versitile programming language very similar to Python. Used because of it's specific strength 
+Duration: **October 2023 - April 2024**
 
-**Understanding of basic aerodynamic principles**
-<br> 
+Total time: **80 hours**
+
+Time commitment: 2-3 hours a week for 32 weeks.
+
+***
+
+## :material-presentation: Highlights
+
+Overview of results and key outcomes of this project
+
+### Airfoil Analysis
+
+insert content
+
+### Airframe Analysis
+
+insert content
+
+### Airframe Optimization
+
+explain content
+
+![](assets/flow/FLOW1.png){ width=500px }
+
+![](assets/flow/FLOW2.png){ width=500px }
+
+!!! success "Elliptical Chord Distribution"
+    I successfully implemented an optimization solver which converges to an elliptical wing chord distribution.
+
+![](assets/flow/FLOW3.png){ width=500px }
+
+![](assets/flow/FLOW4.png){ width=500px }
+
+!!! success "Elliptical Twist Distribution"
+    I successfully implemented an optimization solver which converges to a twisted wing with an elliptical lift distribution.
+
+### Code
+
+To see my code, check out my Github:
+
+[:simple-github: Github Repository](https://github.com/austin006/497R-Airframe-Design){ .md-button .md-button--primary }
+
+***
+
+## :material-brain: Technical Skills
+
+!!! tip "**Julia**"
+    Leveraged the Julia programming language for high-performance technical computing, specifically to develop and execute complex nonlinear optimization algorithms for aerodynamic design projects. Julia excels in speed and performance, especially for numerical computing and high-performance scientific applictions.
+
+!!! tip "**Aerodynamic Principles**"
+    Learned the fundemental principles of flight and aerodynamics. Gained proficiency in modeling aerodynamic forces and performance characteristics of airfoils and airframes, using computational tools like VortexLattice to analyze and inform design decisions.
+
+!!! tip "**Research Skills**"
+    Exposed to university research and true independent problem solving. Demonstrated ability to independently gather, synthesize, and apply technical information from academic papers, documentation, and textbooks to solve a complex engineering problem.

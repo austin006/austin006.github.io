@@ -1,10 +1,9 @@
 # Current/Future Projects
 
 * * *
-| Name                                       | Start Date |
-|:-------------------------------------------|:-----------|
-| MAGICC Lab 3D Printed Quadrotors           | May 2025 |
+| Name                                       | Start Date | Hours |
+|:-------------------------------------------|:-----------|:------|
+| [MAGICC Lab 3D Printed Quadrotors](projects/quadrotor.md)           | May 2025 | 100+ |
+| Personal Website                           | June  | 25 |
 | Graph Fourier Series with Python           | TBD | 
-| Create list of relevant coursework/skills  | TBD |
 | Start a business                           | TBD |
-| Personal Website                   | June  | 20 hours |

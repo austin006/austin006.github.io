@@ -1,34 +1,56 @@
----
-layout: default
-title: Rocket with H Level Motor
-description: January 2024 - April 2024
----
+# Rocket with H Level Motor
 
-## Timeline
+## :material-notebook: Description
 
-Project was completed over the course of my second semester of university from January 2024 - April 2024. Time commitment was about 2 hours a week for 15 weeks.
+I successfully designed, built, launched, and safely recovered a rocket using a certifed motor in the H impulse category. In doing so, I recieved my Level 1 certification[^1]. I constructed this rocket by expanding upon skills and knowledge previously gained from building a simple rocket[^2] in a small team.
 
-Total time: 30 hours
+[^1]: Learn more about high power certification on the [TRIPOLI website](https://www.tripoli.org/content.aspx?page_id=22&club_id=795696&module_id=468541)
+[^2]: [Rocket with G level motor](./G-motor.md)
 
-## Description and Objectives
+!!! info
 
-I completed this project as an undergraduate researcher in the [BYU FLOW Lab](https://flow.byu.edu/) under the guidance of a graduate student mentor.
+    I completed this personal project as a member of **[BYU Rocketry](https://rocketry.byu.edu/)**. I recieved my high power **[Level 1](https://www.tripoli.org/content.aspx?page_id=22&club_id=795696&module_id=468544)** rocketry certification from the **[TRIPOLI Rocketry Association](https://www.tripoli.org/)**.
 
-## Result
+***
 
-Here is a presentation of the project I completed...
+## :material-target: Objectives
 
-<img src="Images/FLOW1.jpg" alt="FLOW1" width="300" height="300">
-<img src="Images/FLOW2.jpg" alt="FLOW2" width="300" height="300">
-<img src="Images/FLOW3.jpg" alt="FLOW3" width="300" height="300">
-<img src="Images/FLOW4.jpg" alt="FLOW4" width="300" height="300">
+1. Obtain Level 1 rocketry certification
 
-## Technical Details and Skills
+***
 
-I gained many new skills in the proccess of this project:
+## :material-clock-time-five: Timeline
 
-**Julia (programming language)**
-<br> A fast a versitile programming language very similar to Python. Used because of it's specific strength 
+Duration: **January 2024 - April 2024**
 
-**Understanding of basic aerodynamic principles**
-<br> 
+Total time: **30 hours**
+
+Time commitment: 2 hours a week for 15 weeks
+
+***
+
+## :material-presentation: Result
+
+Presentation of the project
+
+![](assets/l1/Hrocket1.jpg){ width=300px }
+![](assets/l1/Hrocket4.jpg){ width=300px }
+
+![](assets/l1/Hrocket3.jpg){ width=300px }
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LEaBT3fgHdg?si=cehpYZbjEgKE6S7O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="462" height="822" src="https://www.youtube.com/embed/xoYTLIH87pw" title="L1 Launch 3/16/24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+!!! success "Accomplishment"
+    description
+    
+***
+
+## :material-brain: Technical Skills
+
+!!! tip "**Skill**"
+    description
+
+!!! tip "**Skill**"
+    description

@@ -1,8 +1,4 @@
----
-layout: default
-title: Rocket Water Ballast System
-description: September 2024 - April 2025
----
+# Rocket Water Ballast System
 
 ## Timeline
 
@@ -16,7 +12,11 @@ My role was payload engineer on the Experimental High Power Team of [BYU Rocketr
 
 ## Result
 
-Here is a presentation of the project I completed...
+Here is a presentation of the project I completed... don't forget to include the [news article](https://www.ksl.com/article/51303782/byu-rocketry-club-reaches-new-heights-with-historic-launch-recovery-of-hybrid-rocket) that was made about this!
+
+<iframe width="462" height="822" src="https://www.youtube.com/embed/lLpFiryUqTQ" title="EHPT 4/5/25" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="462" height="822" src="https://www.youtube.com/embed/VkSoiQ7n1To" title="EHPT 4/5/25" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Technical Details and Skills
 

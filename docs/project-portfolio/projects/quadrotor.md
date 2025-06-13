@@ -1,1 +1,1 @@
-this was the coolest project ever
+This project is currently in progress.
