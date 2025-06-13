@@ -18,9 +18,9 @@ These projects are my favorites and have contributed significantly to my learnin
 
     ---
 
-    Description coming soon
+    Design and creation of multiple 3D printed quadrotors to fly in formation using ROS2
 
-    ![](projects/assets/quadrotor/cad-model.png){ width=300px }
+    ![](projects/assets/quadrotor/cad-model.png){ width= 100% }
 
     [:octicons-arrow-right-24: Learn more](projects/quadrotor.md)
 
@@ -28,9 +28,9 @@ These projects are my favorites and have contributed significantly to my learnin
 
     ---
 
-    Description coming soon
+    Use of engineering graphics to efficiently develop ideas into engineered designs
 
-    ![](projects/assets/cad/nerf1.png){ width=300px }
+    ![](projects/assets/cad/nerf1.png){ width= 100% }
 
     [:octicons-arrow-right-24: Learn more](projects/cad.md)
 
@@ -38,9 +38,9 @@ These projects are my favorites and have contributed significantly to my learnin
 
     ---
 
-    Post apogee water ejection system for a high altitude rocket
+    A post-apogee water ejection system for a high altitude rocket with hybrid motor
 
-    ![](projects/assets/water-ballast/Water2.png){ width=300px }
+    ![](projects/assets/water-ballast/Water2.png){ width= 100% }
 
     [:octicons-arrow-right-24: Learn more](projects/water-ballast.md)
 
@@ -48,9 +48,9 @@ These projects are my favorites and have contributed significantly to my learnin
 
     ---
 
-    Description coming soon
+    Optimization of a wing airframe configuration using Julia packages
 
-    ![](projects/assets/flow/FLOW1.png){ width=300px }
+    ![](projects/assets/flow/FLOW1.png){ width= 100% }
 
     [:octicons-arrow-right-24: Learn more](projects/FLOW-lab.md)
 
@@ -58,9 +58,9 @@ These projects are my favorites and have contributed significantly to my learnin
 
     ---
 
-    Description coming soon
+    Launch and recovery of H impulse motor rocket to recieve level 1 certification
 
-    ![](projects/assets/l2/Hrocket2.jpg){ width=300px }
+    ![](projects/assets/l1/Hrocket2.jpg){ width= 100% }
 
     [:octicons-arrow-right-24: Learn more](projects/H-motor.md)
 
