@@ -63,6 +63,7 @@ markdown_extensions:
 - admonition
 - pymdownx.details
 - footnotes
+- pymdownx.blocks.caption
 
 extra:
   social:
@@ -78,16 +79,34 @@ copyright: |
 
 nav:
   - Home: index.md
-  - Experience: experience.md
+  # - Research: research.md
   - Projects: 
-    - Highlighted Projects: project-portfolio/project-portfolio-highlighted.md
-    - Completed Projects: project-portfolio/project-portfolio-completed.md
-    - Future Projects: project-portfolio/project-portfolio-future.md
+    - Highlights: project-portfolio/highlights.md
+    - Complete Project Portfolio: project-portfolio/complete-project-portfolio.md
+    - Robotics:
+      - 3D Printed Quadcopter: project-portfolio/projects/2025/quadrotor.md
+      - Light Following Robot: project-portfolio/projects/2025/ecen301.md
+      - FEMTOSAT: project-portfolio/projects/2023/femtosat.md
+      - RC Plane: project-portfolio/projects/2023/rc-plane.md
+    - Software:
+      - Personal Website: project-portfolio/projects/2025/website.md
+      - Compiler from scratch: project-portfolio/projects/2025/compiler.md
+      - Aerodynamic Analysis: project-portfolio/projects/2024/aerodynamics.md
+    - Rocketry: 
+      - Rocket Water Ballast System: project-portfolio/projects/2025/water-ballast.md
+      - L Level ALC Rocket: project-portfolio/projects/2025/alc.md
+      - Rocket Payload Electronics: project-portfolio/projects/2024/payload-electronics.md
+      - H Level Rocket: project-portfolio/projects/2024/H-rocket.md
+      - G Level Rocket: project-portfolio/projects/2023/G-rocket.md
+    - Design:
+      - CAD Portfolio: project-portfolio/projects/2025/cad.md
+      - Distance Triangulation: project-portfolio/projects/2024/triangulation.md
+      - Pull-Up Bar: project-portfolio/projects/pre-uni/pull-up.md
   - Github: https://github.com/austin006
   - LinkedIn: https://www.linkedin.com/in/austin-mcglashan-006/
-  - Example Pages:
-    - admonitions: examples/admonitions.md
-    - code: examples/code-examples.md
-    - content: examples/content-tabs.md
-    - diagrams: examples/diagram-examples.md
-    - homepage: examples/example-homepage.md
+  # - Example Pages:
+  #   - admonitions: examples/admonitions.md
+  #   - code: examples/code-examples.md
+  #   - content: examples/content-tabs.md
+  #   - diagrams: examples/diagram-examples.md
+  #   - homepage: examples/example-homepage.md

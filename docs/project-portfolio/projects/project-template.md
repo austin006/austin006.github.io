@@ -36,12 +36,7 @@ Presentation of the project
 
 **Don't forget pictures**
 
-![](assets/flow/FLOW1.png){ width=300px }
-![](assets/flow/FLOW2.png){ width=300px }
-
-
-![](assets/flow/FLOW3.png){ width=300px }
-![](assets/flow/FLOW4.png){ width=300px }
+![](#){ width=300px }
 
 !!! success "Accomplishment"
     Wow I did something
