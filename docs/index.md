@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+#   - toc
+---
+
 # Home
 
 This website serves as a comprehensive **project portfolio**. It is designed to showcase my professional experience, skills, and accomplishments in a virtual and easily accessible format.
@@ -39,8 +45,7 @@ After graduating high school in 2021, I lived in Brazil for two years as a relig
 
 === "Academic"
 
-    - CAD
-    - 3D Printing
+    - CAD and 3D Printing
     - Computer Science
     - Aerospace
     - Robotics
@@ -50,8 +55,8 @@ After graduating high school in 2021, I lived in Brazil for two years as a relig
     - Soccer
     - Jiu-Jitsu
     - Snowboarding
-    - Calisthenics
     - Gymnastics
+    - Rock climbing
 
 === "Musical"
 
@@ -64,4 +69,21 @@ After graduating high school in 2021, I lived in Brazil for two years as a relig
     - Reading
     - Portuguese
     - Spanish
-    - Rubik Cube
+
+***
+
+## Hard Skills
+| Skill | Hours | Related Experience |
+|:-------------|:----------|:--------|
+| Docker | 10 | --- |
+| ROS 2 | 100 | [Quadrotors](project-portfolio/projects/2025/quadrotor.md) |
+| CAD | 150+ | [CAD Portfolio](project-portfolio/projects/2025/cad.md), 3D Printing |
+| Python | 360 | [CS 111](https://github.com/austin006/CS_111.git), [Fourier Series Visualization](project-portfolio/projects/2025/fourier.md), [Solving ODEs](https://github.com/austin006/Solving_ODEs_Numerically.git) |
+| C++ | 360 | CS 235, [CS 236](https://github.com/austin006/CS_236.git) |
+| Julia | 80 | [Aerodynamic Analysis and Optimization](project-portfolio/projects/2024/aerodynamics.md) |
+| Composites (Carbon Fiber) | 15 | [Water Ballast](project-portfolio/projects/2025/water-ballast.md), [ALC Payload](project-portfolio/projects/2024/payload-electronics.md) |
+| 3D Printing | 10 | [Quadrotors](project-portfolio/projects/2025/quadrotor.md), [Water Ballast](project-portfolio/projects/2025/water-ballast.md), [ALC Payload](project-portfolio/projects/2024/payload-electronics.md) |
+| Laser Cutting | 10 | [G Lvl Rocket](project-portfolio/projects/2023/G-rocket.md), [H Lvl Rocket](project-portfolio/projects/2024/H-rocket.md) |
+| Circuit Design | 10 | [FEMTOSAT](project-portfolio/projects/2023/femtosat.md), [ALC Payload](project-portfolio/projects/2024/payload-electronics.md), [Light Following Robot](project-portfolio/projects/2025/ecen301.md) |
+| Portuguese | 2 Years | Volunteer |
+| Spanish | 40 | Volunteer |
