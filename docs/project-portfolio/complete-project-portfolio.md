@@ -12,7 +12,7 @@ Here's a look at what I've been working on, with my most recent projects listed 
 | [:star: **3D Printed Quadrotors**](projects/2025/quadrotor.md)  | May | --- | --- |
 | [Personal Website](projects/2025/website.md)                    | Jun 2025 | Jun 2025 | 40 |
 | [Rocket Water Ballast System](projects/2025/water-ballast.md)   | Sep 2024 | May 2025 | 50 |
-| [:star: **CAD Portfolio**](projects/2025/cad.md)                | Jan 2025 | Apr 2025 | 130|
+| [:star: **CAD Portfolio**](projects/2025/cad.md)                | Jan 2025 | Apr 2025 | 150|
 | [Light Following Robot](projects/2025/ecen301.md)               | Jan 2025 | Apr 2025 | 25 |
 | [Compiler From Scratch](projects/2025/compiler.md)              | Jan 2025 | Apr 2025 | 50 |
 | [ALC Rocket](projects/2025/alc.md)                              | Jan 2025 | Apr 2025 | 20 |

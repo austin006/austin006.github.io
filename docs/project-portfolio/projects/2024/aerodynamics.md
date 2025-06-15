@@ -30,32 +30,40 @@ Time commitment: 2-3 hours a week for 32 weeks.
 
 ***
 
-## :material-presentation: Highlights
-
-Overview of results and key outcomes of this project
+## :material-presentation: Results
 
 ### Airfoil Analysis
 
-insert content
+<iframe src="/project-portfolio/projects/2024/assets/aerodynamics/Project1.pdf" width="100%" height="500px"></iframe>
 
-### Airframe Analysis
+### Airframe Analysis and Optimization
 
-insert content
+<iframe src="/project-portfolio/projects/2024/assets/aerodynamics/Project3.pdf" width="100%" height="500px"></iframe>
 
-### Airframe Optimization
-
-explain content
+### Key Takeaways
 
 ![](assets/aerodynamics/FLOW1.png){ width=500px }
+/// caption
+Explain image
+///
 
 ![](assets/aerodynamics/FLOW2.png){ width=500px }
+/// caption
+Explain image
+///
 
 !!! success "Elliptical Chord Distribution"
     I successfully implemented an optimization solver which converges to an elliptical wing chord distribution.
 
 ![](assets/aerodynamics/FLOW3.png){ width=500px }
+/// caption
+Explain image
+///
 
 ![](assets/aerodynamics/FLOW4.png){ width=500px }
+/// caption
+Explain image
+///
 
 !!! success "Elliptical Twist Distribution"
     I successfully implemented an optimization solver which converges to a twisted wing with an elliptical lift distribution.
