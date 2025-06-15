@@ -24,7 +24,7 @@ Total time: **~40 hours**
 
 ## :material-presentation: Result
 
-Explore the website!
+[:material-button-cursor: Explore the website!](https://austin006.github.io/){ .md-button .md-button }
 
 ***
 
