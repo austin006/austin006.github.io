@@ -33,7 +33,7 @@ Here's a look at what I've been working on, with my most recent projects listed 
 | Name    | Start     | End       | Hours |
 |:--------|:----------|:----------|:------|
 | [:star: **G Level Rocket**](projects/2023/G-rocket.md) | Sep 2023 | Dec 2023 | 30 |
-| [FEMTOSAT](projects/2023/femtosat.md)                  | Sep 2023 | Dec 2023 | 20 |
+| [FemtoSat](projects/2023/femtosat.md)                  | Sep 2023 | Dec 2023 | 20 |
 | [RC Plane](projects/2023/rc-plane.md)                  | Sep 2023 | Dec 2023 | 20 |
 
 ## **Pre-University**
