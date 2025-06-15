@@ -42,28 +42,43 @@ Time commitment: 2-3 hours a week for 32 weeks.
 
 ### Key Takeaways
 
-![](assets/aerodynamics/FLOW1.png){ width=500px }
-/// caption
-Explain image
-///
+The big success from this project was solving two optimization problems. 
+
+1. The first was creating an **elliptical distribution of chord values** for an untwisted wing, thus resulting in an elliptical lift distribution. 
+
+2. The second was creating an **elliptical distribution of twist values** for a rectangular wing, thus resulting in an elliptical lift distribution. 
+
+#### Elliptical Chord Distribution
+
+I used a visualization tool called [ParaView](https://www.paraview.org/) to analyze the chord values generated from my optimization solver.
 
 ![](assets/aerodynamics/FLOW2.png){ width=500px }
 /// caption
-Explain image
+Top view of wing
+///
+
+![](assets/aerodynamics/FLOW1.png){ width=500px }
+/// caption
+Plot of chord distribution
 ///
 
 !!! success "Elliptical Chord Distribution"
     I successfully implemented an optimization solver which converges to an elliptical wing chord distribution.
 
-![](assets/aerodynamics/FLOW3.png){ width=500px }
-/// caption
-Explain image
-///
+#### Elliptical Twist Distribution
+
+I again used [ParaView](https://www.paraview.org/) to visualize the wing. This image is a side view of a rectangular wing. You can notice the distribution of twist along the span of the wing as it does not lie flat.
 
 ![](assets/aerodynamics/FLOW4.png){ width=500px }
 /// caption
-Explain image
+Side view of rectangular wing
 ///
+
+![](assets/aerodynamics/FLOW3.png){ width=500px }
+/// caption
+Coefficient of lift distribution of the twisted wing
+///
+
 
 !!! success "Elliptical Twist Distribution"
     I successfully implemented an optimization solver which converges to a twisted wing with an elliptical lift distribution.

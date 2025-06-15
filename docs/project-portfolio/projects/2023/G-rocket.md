@@ -29,7 +29,7 @@ Time commitment:
 
 ## :material-presentation: Result
 
-Presentation of the project
+Rocket name: [**The Elton John**](https://www.youtube.com/watch?v=DtVBCG6ThDk)
 
 **Don't forget pictures**
 
