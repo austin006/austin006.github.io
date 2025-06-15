@@ -86,7 +86,7 @@ nav:
     - Robotics:
       - 3D Printed Quadcopter: project-portfolio/projects/2025/quadrotor.md
       - Light Following Robot: project-portfolio/projects/2025/ecen301.md
-      - FEMTOSAT: project-portfolio/projects/2023/femtosat.md
+      - FemtoSat: project-portfolio/projects/2023/femtosat.md
       - RC Plane: project-portfolio/projects/2023/rc-plane.md
     - Software:
       - Personal Website: project-portfolio/projects/2025/website.md
