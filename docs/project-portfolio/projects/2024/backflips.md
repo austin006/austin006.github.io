@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-Used the modeling and analysis skills learned in BYU ME EN 204: Dynamics to solve for some relevant value in a short video clip. I performed an analysis of position, velocity, and rotation using backflip videos of myself and from the internet.
+Used the modeling and analysis skills learned in BYU ME EN 204: Dynamics to solve for some relevant value in a short video clip. I performed an **analysis of position, velocity, and rotation** using backflip videos of myself and from the internet.
 
 ***
 

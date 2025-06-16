@@ -4,7 +4,7 @@
 
 ## :material-notebook: Description
 
-As a member of [BYU Spacecraft club](https://spacecraft.byu.edu/), I worked closely with a BYU Rocketry team to design a payload for their rocket. As one of 5 members on the payload team, I helped contribute by setting up an altimeter and connecting it with other components in the system. A big accomplishment was sending a camera in our payload to record in-flight footage.
+As a member of [BYU Spacecraft club](https://spacecraft.byu.edu/), I worked closely with a BYU Rocketry team to design a payload for their rocket. As one of 5 members on the payload team, I helped contribute by **setting up an altimeter** and connecting it with other components in the system. A big accomplishment was sending a **camera in our payload** to record in-flight footage.
 
 ***
 

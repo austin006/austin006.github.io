@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-I helped build this rocket in a team of 5. We flew it with a massive L1000 motor! The rocket was just under 7ft tall, flew Mach 1.465 during launch, and reached an apogee of ~8,000ft.
+I helped build this rocket in a team of 5. We flew it with a massive **L1000 motor**! The rocket was just under **7ft tall**, flew **Mach 1.465** during launch, and reached an apogee of **~8,000ft**.
 
 Our purpose was to compete in the [Advanced Launch Competition](https://rocketry.byu.edu/join-us/advanced-student-launch-comp/) (ALC) with goal to hit a target altitude of 5,000ft (almost 1 mile).
 
