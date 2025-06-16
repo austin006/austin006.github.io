@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-With a teamate, I reverse engineered a foamboard F-16 profile jet. I built and flew the plane as part of [BYU Aeronautics club - First Semester Planes](https://sites.google.com/view/byu-aeronautics/fixed-wing/first-semester-planes) experience.
+With a teamate, I reverse engineered a **foamboard F-16 profile jet**. I built and flew the plane as part of [BYU Aeronautics club - First Semester Planes](https://sites.google.com/view/byu-aeronautics/fixed-wing/first-semester-planes) experience.
 
 ***
 

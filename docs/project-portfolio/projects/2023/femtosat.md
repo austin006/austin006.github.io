@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-I built a small satellite that transmitted data to the ground from a rocket 1,000 ft in the air. This was done as part of the [BYU Spacecraft club FemtoSat project](https://spacecraft.byu.edu/club/beginner/femtosat). The FemtoSat transmitted altitude, velocity, air pressure, and other measurements taken from it's environment. I completed this project in a team of four.
+I built a **small satellite** that transmitted data to the ground from a rocket 1,000 ft in the air. This was done as part of the [BYU Spacecraft club FemtoSat project](https://spacecraft.byu.edu/club/beginner/femtosat). The FemtoSat **transmitted altitude, velocity, air pressure, and other measurements** taken from it's environment. I completed this project in a team of four.
 
 ***
 

@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-I successfully designed, built, launched, and safely recovered a rocket using a certifed motor in the G impulse category. I did this in a team with 3 others to compete in the [Student Launch Competition](https://rocketry.byu.edu/join-us/student-launch-comp/). Our target altitude was 1700 ft with a G74W commerical motor and we reached 1575 ft. 
+I successfully **designed, built, launched, and safely recovered** a rocket using a certifed motor in the **G impulse category**. I did this in a team with 3 others to compete in the [Student Launch Competition](https://rocketry.byu.edu/join-us/student-launch-comp/). Our target altitude was 1700 ft with a G74W commerical motor and we reached 1575 ft. 
 
 
 !!! info

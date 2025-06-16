@@ -34,13 +34,12 @@ information for calculation of the cosine angles.
 ![triangulation](assets/triangulation/Distance1.jpg){ width=400px }
 ![triangulation](assets/triangulation/Distance2.jpg){ width=400px }
 /// caption
-General concept and drawing of the designed instrument.
+General concept and drawing of the designed instrument
 ///
 
 ![triangulation](assets/triangulation/Distance4.jpg){ width=300px }
 /// caption
-Instrument is being used to measure the
-angle between the ground (xy plane) and the temple
+Instrument is being used to measure the angle between the ground (xy plane) and the temple
 ///
 
 ![triangulation](assets/triangulation/Distance3.jpg){ width="49%" }

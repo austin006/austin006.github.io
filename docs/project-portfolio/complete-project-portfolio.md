@@ -23,6 +23,7 @@ Here's a look at what I've been working on, with my most recent projects listed 
 |:--------|:----------|:----------|:------|
 | [Gear Motion](projects/2024/gear-motion.md)                                       | Dec 2024 | Dec 2024| 5  |
 | [Motion Analysis of Backflips](projects/2024/backflips.md)                        | Nov 2024 | Nov 2024| 15 |
+| [Static Friction Coefficient Calculator](projects/2024/friction.md)               | Apr 2024 | Apr 2024| 15 |
 | [:star: **Aerodynamic Analysis and Optimization**](projects/2024/aerodynamics.md) | Oct 2023 | Apr 2024| 90 |
 | [Rocket Payload Electronics](projects/2024/payload-electronics.md)                | Jan 2024 | Apr 2024| 35 |
 | [:star: **H Level Rocket**](projects/2024/H-rocket.md)                            | Jan 2024 | Apr 2024| 30 |
