@@ -12,11 +12,11 @@ This project consisted of **aerodynamic analysis** and **design optimization**, 
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaways
 
-1. Airfoil analysis performed through computational fluid dynamics (CFD) simulations
-2. Airframe analysis performed through the vortex lattice method (VLM)
-3. Optimization of airframe aerodynamic design
+- Airfoil analysis performed through computational fluid dynamics (CFD) simulations
+- Airframe analysis performed through the vortex lattice method (VLM)
+- Optimization of airframe aerodynamic design
 
 ***
 
@@ -40,7 +40,7 @@ Time commitment: 2-3 hours a week for 32 weeks.
 
 <iframe src="/project-portfolio/projects/2024/assets/aerodynamics/Project3.pdf" width="100%" height="500px"></iframe>
 
-### Key Takeaways
+### Main Accomplishments
 
 The big success from this project was solving two optimization problems. 
 

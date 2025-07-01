@@ -11,13 +11,11 @@ I successfully **designed, built, launched, and safely recovered** a rocket usin
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaways
 
-1.  Reach as close to 1700 feet as possible
-
-2. Successfully recover rocket
-
-3. All teams must pass a preliminary design review as well as a critical design review prior to launch
+- Reached an apogee of 1700ft
+- Successfully built and recovered rocket without damage
+- Passed a preliminary design review as well as a critical design review prior to launch
 
 ***
 

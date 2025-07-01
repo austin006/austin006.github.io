@@ -32,7 +32,7 @@ The following featured projects are personal favorites and have contributed sign
 
     Use of engineering graphics to efficiently develop ideas into engineered designs
 
-    ![](projects/2025/assets/cad/nerf1.png){ width= 100% }
+    [![](projects/2025/assets/cad/nerf1.png)](projects/2025/cad.md){ width= 100% }
     /// caption
     [:octicons-arrow-right-24: Learn more](projects/2025/cad.md)
     ///
@@ -43,8 +43,8 @@ The following featured projects are personal favorites and have contributed sign
 
     A post-apogee water ejection system for a high altitude rocket with hybrid motor
 
-    ![](projects/2025/assets/water-ballast/Water7.PNG){ width= 100% }
-    ![](projects/2025/assets/water-ballast/Water8.PNG){ width= 100% }
+    [![](projects/2025/assets/water-ballast/Water7.PNG)](projects/2025/water-ballast.md){ width= 100% }
+    [![](projects/2025/assets/water-ballast/Water8.PNG)](projects/2025/water-ballast.md){ width= 100% }
     /// caption
     [:octicons-arrow-right-24: Learn more](projects/2025/water-ballast.md)
     ///
@@ -55,7 +55,7 @@ The following featured projects are personal favorites and have contributed sign
 
     Optimization of a wing airframe configuration using Julia packages
 
-    ![](projects/2024/assets/aerodynamics/FLOW1.png){ width= 100% }
+    [![](projects/2024/assets/aerodynamics/FLOW1.png)](projects/2024/aerodynamics.md){ width= 100% }
     /// caption
     [:octicons-arrow-right-24: Learn more](projects/2024/aerodynamics.md)
     ///
@@ -66,7 +66,7 @@ The following featured projects are personal favorites and have contributed sign
 
     Launch and recovery of H impulse motor rocket to recieve level 1 certification
 
-    ![](projects/2024/assets/H-rocket/Hrocket2.jpg){ width= 100% }
+    [![](projects/2024/assets/H-rocket/Hrocket2.jpg)](projects/2024/H-rocket.md){ height= 100% }
     /// caption
     [:octicons-arrow-right-24: Learn more](projects/2024/H-rocket.md)
     ///

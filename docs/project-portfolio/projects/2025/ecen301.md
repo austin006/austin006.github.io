@@ -17,9 +17,11 @@ More information about the project and see the code on the [class github](https:
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaways[^1]
 
-1. Ability to write computer code that implements simple state machines on a microcontroller. An understanding of analog-to-digital and digital-to-analog converters and their implications for embedded computing. The ability to interface microcontrollers to a variety of sensors and actuators, including DC and servo motors.[^1]
+- Ability to write computer code that implements simple state machines on a microcontroller.
+- An understanding of analog-to-digital and digital-to-analog converters and their implications for embedded computing. 
+- The ability to interface microcontrollers to a variety of sensors and actuators, including DC and servo motors.
 
 [^1]: Taken from [Course Learning Outcomes](https://catalog.byu.edu/courses/01690-007)
 

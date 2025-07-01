@@ -8,13 +8,11 @@ This was the first time BYU Rocketry launched with a hybrid motor - we made [the
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaways
 
-1. Successfully launch and recover BYU's first hybrid rocket and first water ballast system
-
-2. Compete in California's [FAR-OUT](https://www.faroutlaunch.org/) 2025 competition
-
-3. Use a custom launch trailer designed by senior engineering students
+- Successfully launched and recovered BYU's first hybrid rocket and first water ballast system
+- Competed in California's [FAR-OUT](https://www.faroutlaunch.org/) 2025 competition
+- Used a custom launch trailer designed by senior engineering students
 
 ***
 
