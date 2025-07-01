@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-I made a pull-up bar in my backyard with the help of my father. I wanted to build this for calisthenics workouts. I was inspired to build this design by online pictures.
+I made a pull-up bar in my backyard with the help of my father. I wanted to build this for calisthenics workouts. I was inspired to build this design by online research.
 
 ***
 

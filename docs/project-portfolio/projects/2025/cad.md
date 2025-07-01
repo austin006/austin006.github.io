@@ -8,9 +8,9 @@ The work done here was performed in the course BYU ME EN 272: Engineering Graphi
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaway
 
-1. Become excellent at using engineering graphics to efficiently develop ideas into engineered designs.
+- Gained proficiency using engineering graphics to efficiently develop ideas into engineered designs.
 
 ***
 

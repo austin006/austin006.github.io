@@ -8,11 +8,10 @@ Our purpose was to compete in the [Advanced Launch Competition](https://rocketry
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaways
 
-1. Learn how to build a dual-deployment high power rocket
-
-2. Collaborate with [BYU Spacecraft](https://spacecraft.byu.edu/club/) to carry a payload with camera
+- Learned how to build a dual-deployment high power rocket
+- Collaboratd with [BYU Spacecraft](https://spacecraft.byu.edu/club/) to carry a payload with camera
 
 ***
 

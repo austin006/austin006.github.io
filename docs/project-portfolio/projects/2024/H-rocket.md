@@ -5,7 +5,7 @@
 I successfully designed, built, launched, and safely recovered a rocket using a certifed motor in the **H impulse category**. In doing so, I recieved my **Level 1 certification**[^1]. I constructed this rocket by expanding upon skills and knowledge previously gained from building a simple rocket[^2] in a small team.
 
 [^1]: Learn more about high power certification on the [TRIPOLI website](https://www.tripoli.org/content.aspx?page_id=22&club_id=795696&module_id=468541)
-[^2]: [Rocket with G level motor](/project-portfolio/projects/2023/G-rocket.md)
+[^2]: [Rocket with G level motor](../2023/G-rocket.md)
 
 !!! info
 
@@ -13,9 +13,9 @@ I successfully designed, built, launched, and safely recovered a rocket using a 
 
 ***
 
-## :material-target: Objectives
+## :material-key: Key Takeaways
 
-1. Obtain Level 1 rocketry certification
+- Obtained Level 1 rocketry certification
 
 ***
 
