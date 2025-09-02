@@ -44,3 +44,8 @@ BYU Aeronautics Club
 
 !!! tip "**Skill**"
     I learned basic aeronautics principles and how to build and fly a simple1 RC foamboard plane.
+
+***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///

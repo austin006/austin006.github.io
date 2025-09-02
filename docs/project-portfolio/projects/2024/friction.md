@@ -4,10 +4,10 @@
 
 **BYU ME EN 101 Design Project**. Team of 5 individuals.
 
-In this project a simple device for a climbing equipment company will be created. The purpose
+In this project a simple device for a climbing equipment company was created. The purpose
 of this constructed device is to measure the static friction coefficient present between a rope and
-a carabiner. The device will be able to measure variable-size diameter rope approximately 12
-inches long with minimal human intervention. The expected capability is accurate measurements
+a carabiner. The device can measure variable-size diameter rope approximately 12
+inches long with minimal human intervention. The capability is accurate measurements
 for coefficients of friction between 0.03 and 0.4 around a ½ inch diameter steel bolt.
 
 ## :material-clock-time-five: Timeline
@@ -58,3 +58,6 @@ More detailed concept and drawing of the designed instrument
 ///
 
 ***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///

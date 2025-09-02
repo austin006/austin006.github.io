@@ -4,7 +4,10 @@
 
 ## :material-notebook: Description
 
-I created my own personal website as a way to orgainize and display my work. 
+I created a personal website to serve as an **online resume** and comprehensive **project portfolio**. It is designed to showcase my professional experience, skills, and engineering accomplishments in an easily accessible format.
+
+!!! Note
+    I recieved a lot of motivation for this project from my CAD professor who really encouraged displaying and showcasing CAD work well.
 
 ***
 
@@ -14,8 +17,6 @@ Duration: **June 2025**
 
 Total time: **~40 hours**
 
-!!! Note
-    I recieved a lot of motivation for this project from my CAD professor who really encouraged displaying and showcasing CAD work well.
 ***
 
 ## :material-presentation: Result
@@ -31,3 +32,8 @@ Total time: **~40 hours**
 
 !!! tip "**Markdown and HTML**"
     I learned how to use both [Markdown](https://www.markdownguide.org/getting-started/) and [HTML](https://en.wikipedia.org/wiki/HTML) to create the webpages for this website. 
+
+***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///

@@ -101,3 +101,8 @@ To see my code, check out my Github:
 
 !!! tip "**Research Skills**"
     Exposed to university research and true independent problem solving. Demonstrated ability to independently gather, synthesize, and apply technical information from academic papers, documentation, and textbooks to solve a complex engineering problem.
+
+***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///

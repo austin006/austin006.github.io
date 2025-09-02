@@ -2,7 +2,7 @@
 
 ## :material-notebook: Description
 
-I helped build this rocket in a team of 5. We flew it with a massive **L1000 motor**! The rocket was just under **7ft tall**, flew **Mach 1.465** during launch, and reached an apogee of **~8,000ft**.
+I helped build this rocket in a team of 5. We flew it with a massive **L1000 motor**. The rocket was just under **7ft tall**, flew **Mach 1.465** during launch, and reached an apogee of **~8,000ft**.
 
 Our purpose was to compete in the [Advanced Launch Competition](https://rocketry.byu.edu/join-us/advanced-student-launch-comp/) (ALC) with goal to hit a target altitude of 5,000ft (almost 1 mile).
 
@@ -11,7 +11,7 @@ Our purpose was to compete in the [Advanced Launch Competition](https://rocketry
 ## :material-key: Key Takeaways
 
 - Learned how to build a dual-deployment high power rocket
-- Collaboratd with [BYU Spacecraft](https://spacecraft.byu.edu/club/) to carry a payload with camera
+- Collaborated with [BYU Spacecraft](https://spacecraft.byu.edu/club/) to carry a payload with camera
 
 ***
 
@@ -48,3 +48,8 @@ Payload camera footage
 
 !!! tip "**Rocketry**"
     Deepened my rocketry knowledge by constructing a high power rocket. Learned how to do dual-deployment. Empowered me with the skills to try obtaining my L2 certification.
+
+***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///
