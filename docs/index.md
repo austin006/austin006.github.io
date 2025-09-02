@@ -33,7 +33,7 @@ After graduating high school, I lived in Brazil for two years as a religious vol
 -   __**:fontawesome-solid-graduation-cap: BS Mechanical Engineering**__
     *Minor in Computer Science*
 
-    ***Brigham Young University*** • *Expected Graduation: April 2028*
+    [***Brigham Young University***](https://www.youtube.com/watch?v=qohZGTqhXmg) • *Expected Graduation: April 2028*
 
     A rigorous, ABET-accredited program focused on core engineering principles, computational analysis, and hands-on design projects.
 
@@ -51,7 +51,7 @@ After graduating high school, I lived in Brazil for two years as a religious vol
 
 -   __**:material-quadcopter: Quadrotor Systems & AI Integration Engineer**__
 
-    ***BYU MAGICC Lab*** • *May 2025 - Present*
+    [***BYU MAGICC Lab***](https://magicc.byu.edu/) • *May 2025 - Present*
 
     !!! success "Key Achievements"
         - Architected and fabricated a custom 3D-printed quadrotor for autonomous systems research.
@@ -62,7 +62,7 @@ After graduating high school, I lived in Brazil for two years as a religious vol
 
 -   __**:material-rocket-launch: Payload Subsystem Engineer**__
 
-    ***BYU Rocketry (EHPT)*** • *Sep 2024 - April 2025*
+    [***BYU Rocketry (EHPT)***](https://www.youtube.com/watch?v=11XYRcnl5vY&t) • *Sep 2024 - April 2025*
 
     !!! success "Key Achievements"
         - Engineered a novel water ballast subsystem to eject 3 kg of water mid-flight for a high-power competition rocket.
@@ -73,7 +73,7 @@ After graduating high school, I lived in Brazil for two years as a religious vol
 
 -   __**:fontawesome-solid-plane: Aerodynamics Research Assistant**__
 
-    ***BYU FLOW Lab*** • *Oct 2023 - April 2024*
+    [***BYU FLOW Lab***](https://flow.byu.edu/) • *Oct 2023 - April 2024*
 
     !!! success "Key Achievements"
         - Conducted a computational research project focused on airframe optimization.
@@ -84,7 +84,7 @@ After graduating high school, I lived in Brazil for two years as a religious vol
 
 -   __**:material-school: NASA Aerospace Scholar**__
 
-    ***NASA Johnson Space Center*** • *Oct 2019 - April 2020*
+    [***NASA Johnson Space Center***](https://www.nasa.gov/learning-resources/high-school-aerospace-scholars/) • *Oct 2019 - April 2020*
 
     !!! success "Key Achievements"
         - Selected for an intensive STEM program mentored by NASA engineers. 
