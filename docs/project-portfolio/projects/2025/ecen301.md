@@ -61,3 +61,8 @@ Final lab 6 video
 
 !!! tip "**Electronic Circuits**"
     I learned how to analyze DC and AC circuits using the basic laws of electronics. I learned how to use diodes, transistors, and operational amplifiers. I also gained the ability to use electronic instruments to test and debug electronic circuits.
+
+***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///

@@ -4,7 +4,7 @@
 
 I used, created, and evaluated engineering graphics including hand sketches, solid CAD models, renderings, engineering drawings, and animations. 
 
-The work done here was performed in the course BYU ME EN 272: Engineering Graphics
+The work done here was performed as part of the BYU course ME EN 272: Engineering Graphics
 
 ***
 
@@ -41,3 +41,8 @@ Time commitment: ~10 hours per week
     * CAD model quality - parametric CAD, robustness, and easy iteration
     * CAD strategy - articulation of the steps needed to construct the model
     * Basic CAD process - purpose, strategy, model, iterate, present
+
+***
+///caption
+[:material-list-box: Return to project list](/project-portfolio/complete-project-portfolio/#__tabbed_1_2){ .md-button .md-button--primary }
+///

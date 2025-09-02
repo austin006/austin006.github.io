@@ -65,6 +65,10 @@ markdown_extensions:
 - footnotes
 - pymdownx.blocks.caption
 
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
 extra:
   social:
     - icon: simple/github
@@ -81,24 +85,5 @@ nav:
   - Home: index.md
   # - Research: research.md
   - Project Portfolio: project-portfolio/complete-project-portfolio.md
-    # - Robotics:
-    #   - 3D Printed Quadcopter: project-portfolio/projects/2025/quadrotor.md
-    #   - Light Following Robot: project-portfolio/projects/2025/ecen301.md
-    #   - FemtoSat: project-portfolio/projects/2023/femtosat.md
-    #   - RC Plane: project-portfolio/projects/2023/rc-plane.md
-    # - Software:
-    #   - Personal Website: project-portfolio/projects/2025/website.md
-    #   - Compiler from scratch: project-portfolio/projects/2025/compiler.md
-    #   - Aerodynamic Analysis: project-portfolio/projects/2024/aerodynamics.md
-    # - Rocketry: 
-    #   - Rocket Water Ballast System: project-portfolio/projects/2025/water-ballast.md
-    #   - L Level ALC Rocket: project-portfolio/projects/2025/alc.md
-    #   - Rocket Payload Electronics: project-portfolio/projects/2024/payload-electronics.md
-    #   - H Level Rocket: project-portfolio/projects/2024/H-rocket.md
-    #   - G Level Rocket: project-portfolio/projects/2023/G-rocket.md
-    # - Design:
-    #   - CAD Portfolio: project-portfolio/projects/2025/cad.md
-    #   - Distance Triangulation: project-portfolio/projects/2024/triangulation.md
-    #   - Pull-Up Bar: project-portfolio/projects/pre-uni/pull-up.md
   - Github: https://github.com/austin006
   - LinkedIn: https://www.linkedin.com/in/austin-mcglashan006/
