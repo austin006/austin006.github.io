@@ -8,7 +8,7 @@ hide:
 
 * * *
 
-Welcome to my portfolio. This collection features engineering projects completed during my undergraduate studies, each demonstrating the progression of my technical knowledge, analytical skills, and professional development. Selecting a project will provide additional details and outcomes.
+Welcome to my portfolio. This collection features engineering projects completed during my undergraduate studies, each demonstrating the progression of my technical knowledge, analytical skills, and professional development. Selecting a projectm will provide additional details and outcomes.
 
 === "Key Projects"
 
