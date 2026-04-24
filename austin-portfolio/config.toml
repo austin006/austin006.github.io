@@ -1,0 +1,106 @@
+baseURL = "https://austin006.github.io/"
+languageCode = "en-us"
+title = "Austin McGlashan"
+theme = "hugo-strata-theme"
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Personal project portfolio."
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "headshot.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**I'm Austin**, a rising mechanical engineer."
+		# The icons will be shown if you enter your username
+		github = "austin006"
+        linkedin = "austin-mcglashan"
+        youtube = "https://www.youtube.com/@austinmcglashan006"
+
+		copyright = [
+			"&copy; Austin McGlashan",
+			"Design: [HTML5 UP](//html5up.net)",
+			"Demo Images: [Unsplash](//unsplash.com/)"
+		]
+
+	[params.about]
+		hide  = false
+		title = "About me"
+		content = "I'm a student at Brigham Young University studying Mechanical Engineering with a minor in Computer Science. I am ambitious, self-motivated, and hardworking. I’m currently seeking a Summer 2027 internship where I can apply my skills in design, analysis, and interdisciplinary problem-solving. <br>Aside from my academic endeavors, I enjoy many other interests including sports and music."
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Key Projects"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/01.jpg"
+			thumb = "thumbs/01.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/02.jpg"
+			thumb = "thumbs/02.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/05.jpg"
+			thumb = "thumbs/05.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			title = "Lorem ipsum dolor."
+			description = "Lorem ipsum dolor sit amet."
+    
+[menu]
+# This creates the main navigation links
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Project Gallery"
+    url = "/story-theme/index.html"
+    weight = 2
+
+[[menu.main]]
+    name = "Timeline"
+    url = "/complete-project-portfolio"
+    weight = 3
+
+[[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 4
