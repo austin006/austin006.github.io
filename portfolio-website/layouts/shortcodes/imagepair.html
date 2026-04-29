@@ -1,0 +1,25 @@
+{{- $src1 := .Get "src1" | default "" -}}
+{{- $src2 := .Get "src2" | default "" -}}
+{{- $alt1 := .Get "alt1" | default "" -}}
+{{- $alt2 := .Get "alt2" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $variant := .Get "variant" | default "default" -}}
+
+{{- if and .Page .Page.File (hasPrefix $src1 "assets/") -}}
+	{{- $relativePath1 := replaceRE "^assets/" "" $src1 -}}
+	{{- $src1 = printf "/%s%s" .Page.File.Dir $relativePath1 -}}
+{{- end -}}
+{{- if and .Page .Page.File (hasPrefix $src2 "assets/") -}}
+	{{- $relativePath2 := replaceRE "^assets/" "" $src2 -}}
+	{{- $src2 = printf "/%s%s" .Page.File.Dir $relativePath2 -}}
+{{- end -}}
+
+{{- if and $src1 $src2 -}}
+<figure class="project-figure project-figure--image project-image-pair{{ if ne $variant "default" }} project-image-pair--{{ $variant }}{{ end }}">
+	<span class="image fit"><img src="{{ $src1 | safeURL }}" alt="{{ $alt1 }}" loading="lazy" /></span>
+	<span class="image fit"><img src="{{ $src2 | safeURL }}" alt="{{ $alt2 }}" loading="lazy" /></span>
+	{{- with $caption -}}
+		<figcaption class="project-caption project-figure__caption">{{ . }}</figcaption>
+	{{- end -}}
+</figure>
+{{- end -}}

@@ -1,0 +1,66 @@
+{{ $projects := .projects }}
+{{ $state := newScratch }}
+{{ $state.Set "year" "" }}
+{{ $state.Set "years" (slice) }}
+
+{{ range $project := $projects }}
+	{{ $year := $project.Date.Format "2006" }}
+	{{ if ne ($state.Get "year") $year }}
+		{{ $state.Set "years" (($state.Get "years") | append $year) }}
+		{{ $state.Set "year" $year }}
+	{{ end }}
+{{ end }}
+
+{{ $state.Set "year" "" }}
+
+<section class="portfolio-table-view">
+	<header class="portfolio-table-view__header">
+		<h2>Table View</h2>
+		<p>A structured view of the complete portfolio with project summaries and completion dates.</p>
+	</header>
+
+	<div class="portfolio-table-layout">
+		<div class="portfolio-table-layout__main">
+			<div class="portfolio-table-shell">
+				<table class="portfolio-table">
+					<thead>
+						<tr>
+							<th>Project Name</th>
+							<th>Description</th>
+							<th>Finish Date</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{ range $project := $projects }}
+							{{ $year := $project.Date.Format "2006" }}
+							{{ if ne ($state.Get "year") $year }}
+								<tr class="portfolio-table__year-row">
+									<th colspan="3"><span class="portfolio-table__year-anchor" id="{{ printf "year-%s" $year }}">{{ $year }}</span></th>
+								</tr>
+								{{ $state.Set "year" $year }}
+							{{ end }}
+							<tr>
+								<td class="portfolio-table__project-name"><a href="{{ $project.RelPermalink }}">{{ $project.Title }}</a></td>
+								<td class="portfolio-table__description">{{ $project.Params.description }}</td>
+								<td class="portfolio-table__date">{{ $project.Date.Format "January 2006" }}</td>
+							</tr>
+						{{ end }}
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<aside class="portfolio-table-toc" aria-label="Portfolio years">
+			<div class="portfolio-table-toc__inner">
+				<p class="portfolio-table-toc__eyebrow">Jump to Year</p>
+				<nav class="portfolio-table-toc__nav">
+					<ul>
+						{{ range $state.Get "years" }}
+							<li><a href="{{ printf "#year-%s" . }}">{{ . }}</a></li>
+						{{ end }}
+					</ul>
+				</nav>
+			</div>
+		</aside>
+	</div>
+</section>

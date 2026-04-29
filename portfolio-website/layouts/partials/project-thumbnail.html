@@ -1,0 +1,6 @@
+{{- partial "project-image.html" (dict
+	"page" .page
+	"index" (.index | default 0)
+	"allowDemoFallback" (.allowDemoFallback | default false)
+	"role" "thumbnail"
+) -}}

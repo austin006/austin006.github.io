@@ -1,0 +1,20 @@
+<header id="header">
+	<div class="inner">
+		<a href="{{ "/" | relURL }}" class="logo">
+			<span class="symbol"><img src="{{ "phantom/images/logo.svg" | relURL }}" alt="" /></span><span class="title">{{ .Site.Params.name | default .Site.Title }}</span>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="#menu">Menu</a></li>
+			</ul>
+			<button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+				<span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">&#9728;</span>
+				<span class="theme-toggle__track" aria-hidden="true">
+					<span class="theme-toggle__thumb"></span>
+				</span>
+				<span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">&#9790;</span>
+				<span class="theme-toggle__label">Dark Mode</span>
+			</button>
+		</nav>
+	</div>
+</header>

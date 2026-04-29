@@ -1,0 +1,27 @@
+{{- $meta := slice -}}
+{{- with .Params.role -}}
+	{{- $meta = $meta | append (dict "label" "Role" "value" .) -}}
+{{- end -}}
+{{- with .Params.team -}}
+	{{- $meta = $meta | append (dict "label" "Team" "value" .) -}}
+{{- end -}}
+{{- with .Params.duration -}}
+	{{- $meta = $meta | append (dict "label" "Duration" "value" .) -}}
+{{- end -}}
+{{- with .Params.outcome -}}
+	{{- $meta = $meta | append (dict "label" "Outcome" "value" .) -}}
+{{- end -}}
+{{- with .Params.core_tools -}}
+	{{- $meta = $meta | append (dict "label" "Core Tools" "value" (delimit . ", ")) -}}
+{{- end -}}
+
+{{- if gt (len $meta) 0 -}}
+<dl class="project-meta" aria-label="Project highlights">
+	{{- range $meta -}}
+		<div class="project-meta__item">
+			<dt>{{ .label }}</dt>
+			<dd>{{ .value }}</dd>
+		</div>
+	{{- end -}}
+</dl>
+{{- end -}}

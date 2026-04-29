@@ -1,0 +1,89 @@
+{{- $page := .page -}}
+{{- $index := .index | default 0 -}}
+{{- $allowDemoFallback := .allowDemoFallback | default false -}}
+{{- $role := lower (.role | default "thumbnail") -}}
+{{- $fallbacks := slice "pic01.jpg" "pic02.jpg" "pic03.jpg" "pic04.jpg" "pic05.jpg" "pic06.jpg" "pic07.jpg" "pic08.jpg" "pic09.jpg" "pic10.jpg" "pic11.jpg" "pic12.jpg" "pic13.jpg" "pic14.jpg" "pic15.jpg" -}}
+{{- $image := "" -}}
+
+{{- if $page.File -}}
+	{{- $assetDir := printf "static/%s%s" $page.File.Dir $page.File.BaseFileName -}}
+	{{- if fileExists $assetDir -}}
+		{{- $files := sort (readDir $assetDir) "Name" -}}
+		{{- $preferredPattern := printf "^%s\\." $role -}}
+		{{- range $files -}}
+			{{- $name := lower .Name -}}
+			{{- $isImage := gt (len (findRE "\\.(jpg|jpeg|png|gif|webp)$" $name)) 0 -}}
+			{{- $isPreferred := gt (len (findRE $preferredPattern $name)) 0 -}}
+			{{- if and (not .IsDir) (not $image) $isImage $isPreferred -}}
+				{{- $image = printf "/%s%s/%s" $page.File.Dir $page.File.BaseFileName .Name -}}
+			{{- end -}}
+		{{- end -}}
+
+		{{- if and (not $image) (eq $role "header") -}}
+			{{- range $files -}}
+				{{- $name := lower .Name -}}
+				{{- $isImage := gt (len (findRE "\\.(jpg|jpeg|png|gif|webp)$" $name)) 0 -}}
+				{{- $isThumbnail := gt (len (findRE "^thumbnail\\." $name)) 0 -}}
+				{{- if and (not .IsDir) (not $image) $isImage $isThumbnail -}}
+					{{- $image = printf "/%s%s/%s" $page.File.Dir $page.File.BaseFileName .Name -}}
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
+
+		{{- if not $image -}}
+			{{- range $files -}}
+				{{- $name := lower .Name -}}
+				{{- $isImage := gt (len (findRE "\\.(jpg|jpeg|png|gif|webp)$" $name)) 0 -}}
+				{{- if and (not .IsDir) (not $image) $isImage -}}
+					{{- $image = printf "/%s%s/%s" $page.File.Dir $page.File.BaseFileName .Name -}}
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+
+{{- if and (not $image) $page.Params.thumbnail -}}
+	{{- $image = replaceRE "/assets/" "/" $page.Params.thumbnail -}}
+{{- end -}}
+
+{{- if and (not $image) $page.File -}}
+	{{- $legacyAssetDir := printf "static/%sassets/%s" $page.File.Dir $page.File.BaseFileName -}}
+	{{- if fileExists $legacyAssetDir -}}
+		{{- range sort (readDir $legacyAssetDir) "Name" -}}
+			{{- $name := lower .Name -}}
+			{{- $isImage := gt (len (findRE "\\.(jpg|jpeg|png|gif|webp)$" $name)) 0 -}}
+			{{- $preferredPattern := printf "^%s\\." $role -}}
+			{{- $isPreferred := gt (len (findRE $preferredPattern $name)) 0 -}}
+			{{- if and (not .IsDir) (not $image) $isImage $isPreferred -}}
+				{{- $image = printf "/%sassets/%s/%s" $page.File.Dir $page.File.BaseFileName .Name -}}
+			{{- end -}}
+		{{- end -}}
+
+		{{- if and (not $image) (eq $role "header") -}}
+			{{- range sort (readDir $legacyAssetDir) "Name" -}}
+				{{- $name := lower .Name -}}
+				{{- $isImage := gt (len (findRE "\\.(jpg|jpeg|png|gif|webp)$" $name)) 0 -}}
+				{{- $isThumbnail := gt (len (findRE "^thumbnail\\." $name)) 0 -}}
+				{{- if and (not .IsDir) (not $image) $isImage $isThumbnail -}}
+					{{- $image = printf "/%sassets/%s/%s" $page.File.Dir $page.File.BaseFileName .Name -}}
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
+
+		{{- if not $image -}}
+			{{- range sort (readDir $legacyAssetDir) "Name" -}}
+				{{- $name := lower .Name -}}
+				{{- $isImage := gt (len (findRE "\\.(jpg|jpeg|png|gif|webp)$" $name)) 0 -}}
+				{{- if and (not .IsDir) (not $image) $isImage -}}
+					{{- $image = printf "/%sassets/%s/%s" $page.File.Dir $page.File.BaseFileName .Name -}}
+				{{- end -}}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+
+{{- if and (not $image) $allowDemoFallback -}}
+	{{- $image = printf "/phantom/images/%s" (index $fallbacks (mod $index (len $fallbacks))) -}}
+{{- end -}}
+
+{{- $image -}}

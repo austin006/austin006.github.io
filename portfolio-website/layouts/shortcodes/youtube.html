@@ -1,0 +1,16 @@
+{{- $id := .Get 0 | default (.Get "id") -}}
+{{- $title := .Get "title" | default (printf "%s video" .Page.Title) -}}
+{{- $class := .Get "class" | default "" -}}
+
+<div class="project-video{{ with $class }} {{ . }}{{ end }}">
+	<div class="project-video__frame">
+		<iframe
+			src="{{ printf "https://www.youtube-nocookie.com/embed/%s" $id | safeURL }}"
+			title="{{ $title }}"
+			loading="lazy"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen>
+		</iframe>
+	</div>
+</div>

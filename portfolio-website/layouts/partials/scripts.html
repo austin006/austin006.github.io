@@ -1,0 +1,31 @@
+<script src="{{ "phantom/assets/js/jquery.min.js" | relURL }}"></script>
+<script src="{{ "phantom/assets/js/browser.min.js" | relURL }}"></script>
+<script src="{{ "phantom/assets/js/breakpoints.min.js" | relURL }}"></script>
+<script src="{{ "phantom/assets/js/util.js" | relURL }}"></script>
+<script src="{{ "phantom/assets/js/main.js" | relURL }}"></script>
+{{- $searchDocs := slice -}}
+{{- $homeContent := printf "%s %s %s %s %s %s"
+	(.Site.Params.intro | default "")
+	(.Site.Params.description | default "")
+	"Mechanical Engineering student at Brigham Young University with a minor in Computer Science building at the intersection of hardware and software."
+	"Work spans robotics, CAD, simulation, controls, embedded systems, aerospace systems, and technical computing."
+	"B.S. Mechanical Engineering, Minor in Computer Science. Brigham Young University. Graduation: April 2028."
+	"ABET-accredited undergraduate training grounded in core engineering analysis, computational methods, and hands-on design." -}}
+{{- $searchDocs = $searchDocs | append (dict
+	"title" (.Site.Params.name | default .Site.Title)
+	"url" ("/" | relURL)
+	"section" "Home"
+	"description" (.Site.Params.description | default "")
+	"content" $homeContent
+) -}}
+{{- range where .Site.RegularPages "File.BaseFileName" "!=" "project-template" -}}
+	{{- $searchDocs = $searchDocs | append (dict
+		"title" .Title
+		"url" .RelPermalink
+		"section" (.Section | title)
+		"description" (.Params.description | default .Params.summary | default "")
+		"content" (.Content | plainify | replaceRE "\\s+" " ")
+	) -}}
+{{- end -}}
+<script id="site-search-data" type="application/json">{{ $searchDocs | jsonify | safeJS }}</script>
+<script src="{{ "phantom/assets/js/site.js" | relURL }}"></script>

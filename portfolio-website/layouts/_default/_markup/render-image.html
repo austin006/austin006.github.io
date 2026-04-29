@@ -1,0 +1,6 @@
+{{- $destination := .Destination -}}
+{{- if and .Page .Page.File (hasPrefix $destination "assets/") -}}
+	{{- $relativePath := replaceRE "^assets/" "" $destination -}}
+	{{- $destination = printf "/%s%s" .Page.File.Dir $relativePath -}}
+{{- end -}}
+<span class="image fit"><img src="{{ $destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" /></span>

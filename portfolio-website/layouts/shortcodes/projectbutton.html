@@ -1,0 +1,31 @@
+{{ $text := .Get "text" | default "Learn More" }}
+{{ $url := .Get "url" | default "#" }}
+{{ $variant := .Get "variant" | default "secondary" }}
+{{ $newTab := eq (.Get "newtab" | default "false") "true" }}
+{{ $secondaryText := .Get "secondaryText" | default "" }}
+{{ $secondaryUrl := .Get "secondaryUrl" | default "" }}
+{{ $secondaryVariant := .Get "secondaryVariant" | default $variant }}
+{{ $class := "button" }}
+{{ $secondaryClass := "button" }}
+
+{{ if eq $variant "primary" }}
+	{{ $class = "button primary" }}
+{{ end }}
+
+{{ if eq $secondaryVariant "primary" }}
+	{{ $secondaryClass = "button primary" }}
+{{ end }}
+
+{{ if and $secondaryText $secondaryUrl }}
+<div class="page-actions page-actions--project">
+	<a class="{{ $class }}" href="{{ $url }}">{{ $text }}</a>
+	<a class="{{ $secondaryClass }}" href="{{ $secondaryUrl }}">{{ $secondaryText }}</a>
+</div>
+{{ else }}
+<a
+	class="{{ $class }}"
+	href="{{ $url }}"
+	{{ if $newTab }}target="_blank" rel="noreferrer noopener"{{ end }}>
+	{{ $text }}
+</a>
+{{ end }}

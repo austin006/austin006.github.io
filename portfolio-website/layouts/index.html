@@ -1,0 +1,174 @@
+{{ define "main" }}
+	{{ $allProjects := where .Site.RegularPages "Section" "portfolio" }}
+	{{ $allProjects = where $allProjects "File.BaseFileName" "!=" "project-template" }}
+	{{ $featuredProjects := sort (where $allProjects "Params.featured" true) "Weight" }}
+
+	<section class="home-hero">
+		<div class="home-hero__identity">
+			<img class="home-hero__photo" src="{{ "images/headshot.jpg" | relURL }}" alt="Austin McGlashan" />
+			<div class="home-hero__identity-copy">
+				<h1>{{ .Site.Params.name | default .Site.Title }}</h1>
+				<p class="home-hero__intro">{{ .Site.Params.intro }}</p>
+				<ul class="icons home-hero__icons">
+					{{ with .Site.Params.github }}
+						<li><a href="{{ partial "social-url.html" (dict "platform" "github" "value" .) }}" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+					{{ end }}
+					{{ with .Site.Params.linkedin }}
+						<li><a href="{{ partial "social-url.html" (dict "platform" "linkedin" "value" .) }}" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					{{ end }}
+					{{ with .Site.Params.youtube }}
+						<li><a href="{{ partial "social-url.html" (dict "platform" "youtube" "value" .) }}" class="icon brands style2 fa-youtube"><span class="label">YouTube</span></a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+		<div class="home-hero__about">
+			<h2>About me</h2>
+			<p>I'm a Mechanical Engineering student at Brigham Young University with a minor in Computer Science, building at the intersection of hardware and software. My work spans robotics, CAD, simulation, controls, and embedded systems, with a focus on turning technical ideas into well-executed, real-world projects.</p>
+			<!-- <p>I’m especially motivated by engineering roles that combine analytical thinking, hands-on design, and cross-functional problem solving. Alongside coursework and project work, I’ve developed experience in aerospace systems, technical computing, and product-minded execution.</p> -->
+			<div class="home-highlights">
+				<p class="home-highlights__title">Highlights</p>
+				<ul class="home-highlights__list">
+					<li>FAA Part 107 certified commercial drone pilot</li>
+					<li>Tripoli level 1 rocketry certified</li>
+					<li>Onshape Associate certified CAD designer</li>
+					<li>Professional working fluency in Portuguese; elementary Spanish</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-section">
+		<div class="home-section__header">
+			<h2>Featured Projects</h2>
+			<p><a href="{{ "/portfolio/" | relURL }}">View complete portfolio</a></p>
+		</div>
+		{{ partial "project-tiles.html" (dict "projects" (first 6 $featuredProjects)) }}
+		<div class="page-actions">
+			<a class="button primary" href="{{ "/portfolio/" | relURL }}">Go to Project Portfolio</a>
+		</div>
+	</section>
+
+	<section class="home-section">
+		<h2>Education</h2>
+		<div class="education-block">
+			<p class="education-block__degree"><strong>B.S. Mechanical Engineering, Minor in Computer Science</strong></p>
+			<p class="education-block__meta">Brigham Young University  &bull;  Graduation: April 2028</p>
+			<p>ABET-accredited undergraduate training grounded in core engineering analysis, computational methods, and hands-on design. Coursework and projects have emphasized mechanical systems, mechatronics, modeling, and technical problem solving across both physical and software domains.</p>
+			<div class="education-grid">
+				<div class="education-card">
+					<h3>Relevant Coursework</h3>
+					<ul>
+						<li>CAD, Thermodynamics, Materials Science, Mechanics of Materials</li>
+						<li>Dynamic System Modeling, Design of Mechatronic Systems, Computational Methods</li>
+						<li>Data Structures, Algorithms, Object-Oriented Programming, Numerical Methods</li>
+					</ul>
+				</div>
+				<div class="education-card">
+					<h3>Organizations &amp; Recognition</h3>
+					<ul>
+						<li>ASME, Tau Beta Pi</li>
+						<li>Leadership Certificate, Weidman Center for Global Leadership</li>
+						<li>BYU Scholarship, Teagle Scholarship</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-section home-skills">
+		<div class="home-section__header">
+			<h2>Skills</h2>
+			<p>A project-grounded snapshot of the tools, systems, and technical strengths developed across software, robotics, and engineering design.</p>
+		</div>
+		<div class="table-wrapper home-skills__table-wrapper">
+			<table class="home-skills__table">
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Tools &amp; Specifics</th>
+						<th>Related Projects &amp; Resources</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><strong>Programming &amp; Software</strong></td>
+						<td>Python, C++, C, Java, Julia, MATLAB, Git/GitHub, Docker, Linux/Ubuntu, HPC systems, SQL</td>
+						<td>
+							<a href="https://github.com/austin006/CS_111.git">CS 111</a>,
+							<a href="https://github.com/austin006/CS_236.git">CS 236</a>,
+							<a href="https://github.com/austin006/Solving_ODEs_Numerically.git">Solving ODEs</a>,
+							<a href="{{ "/portfolio/2024/aerodynamics/" | relURL }}">Aerodynamic Analysis</a>,
+							<a href="{{ "/portfolio/2025/compiler/" | relURL }}">Compiler Project</a>
+						</td>
+					</tr>
+					<tr>
+						<td><strong>AI Agent Deployment</strong></td>
+						<td>LangChain, LangGraph, Hugging Face, Ollama</td>
+						<td><a href="{{ "/portfolio/2025/quadrotor/" | relURL }}">Multi-Agent Quadrotor Hardware and Simulation</a></td>
+					</tr>
+					<tr>
+						<td><strong>Robotics &amp; Embedded Systems</strong></td>
+						<td>ROS 2, Gazebo, PX4 Flight Controllers, PIC Microcontrollers, Arduino, Raspberry Pi, Jetson Nano</td>
+						<td>
+							<a href="{{ "/portfolio/2025/quadrotor/" | relURL }}">Multi-Agent Quadrotor</a>,
+							<a href="{{ "/portfolio/2025/ecen301/" | relURL }}">Light Following Robot</a>,
+							<a href="{{ "/portfolio/2023/femtosat/" | relURL }}">FEMTOSAT</a>
+						</td>
+					</tr>
+					<tr>
+						<td><strong>Mechanical Design &amp; Fabrication</strong></td>
+						<td>CAD (Onshape), 3D Printing, Laser Cutting, Carbon Fiber Layup, CNC Manufacturing</td>
+						<td>
+							<a href="{{ "/portfolio/2025/cad/" | relURL }}">CAD Portfolio</a>,
+							<a href="{{ "/portfolio/2025/water-ballast/" | relURL }}">Water Ballast</a>,
+							<a href="{{ "/portfolio/2025/quadrotor/" | relURL }}">Quadrotor</a>,
+							<a href="{{ "/portfolio/2023/g-rocket/" | relURL }}">G Level Rocket</a>,
+							<a href="{{ "/portfolio/2024/h-rocket/" | relURL }}">H Level Rocket</a>
+						</td>
+					</tr>
+					<tr>
+						<td><strong>Electronics &amp; Controls</strong></td>
+						<td>Circuit Design, Soldering, Sensor Integration, Flight Electronics, Embedded Control</td>
+						<td>
+							<a href="{{ "/portfolio/2023/femtosat/" | relURL }}">FEMTOSAT</a>,
+							<a href="{{ "/portfolio/2024/payload-electronics/" | relURL }}">Rocket Payload Electronics</a>,
+							<a href="{{ "/portfolio/2025/ecen301/" | relURL }}">Light Following Robot</a>
+						</td>
+					</tr>
+					<tr>
+						<td><strong>Engineering Analysis</strong></td>
+						<td>Optimization, Numerical Methods, Dynamic Modeling, FEA (PrePoMax), Aerodynamic Analysis</td>
+						<td>
+							<a href="{{ "/portfolio/2024/aerodynamics/" | relURL }}">Aerodynamic Analysis</a>,
+							<a href="{{ "/portfolio/2024/backflips/" | relURL }}">Motion Analysis of Backflips</a>,
+							<a href="{{ "/portfolio/2024/triangulation/" | relURL }}">Triangulation</a>,
+							<a href="{{ "/portfolio/2024/friction/" | relURL }}">Coefficient of Friction Study</a>
+						</td>
+					</tr>
+					<tr>
+						<td><strong>Languages &amp; Certifications</strong></td>
+						<td>Portuguese, Spanish, FAA Part 107, Onshape Associate, Tripoli Level 1</td>
+						<td>
+							<a href="https://newsroom.churchofjesuschrist.org/topic/missionary-program">Missionary Program</a>,
+							<a href="{{ "/portfolio/2025/cad/" | relURL }}">CAD Portfolio</a>,
+							<a href="{{ "/portfolio/2024/h-rocket/" | relURL }}">H Level Rocket</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	<section class="home-section">
+		<div class="home-section__header">
+			<h2>Experience</h2>
+		</div>
+		<p>I have built experience across engineering, technical project work, research, and hands-on design roles. For the most complete and up-to-date view of my work history, responsibilities, and outcomes, please see my LinkedIn profile.</p>
+		<div class="page-actions">
+			{{ with .Site.Params.linkedin }}
+				<a class="button primary" href="{{ partial "social-url.html" (dict "platform" "linkedin" "value" .) }}">View LinkedIn Experience</a>
+			{{ end }}
+		</div>
+	</section>
+{{ end }}

@@ -1,0 +1,32 @@
+{{- $heroImage := partial "project-image.html" (dict "page" . "allowDemoFallback" false "role" "header") -}}
+{{- $heroAlt := .Params.header_alt | default "" -}}
+{{- $toc := .TableOfContents -}}
+{{- $hasToc := gt (len (trim ($toc | plainify) " \n\r\t")) 0 -}}
+
+<h1>{{ .Title }}</h1>
+{{ with .Params.summary }}
+	<p class="project-summary">{{ . }}</p>
+{{ end }}
+{{ partial "project-meta.html" . }}
+{{ partial "project-hero-actions.html" . }}
+{{ with $heroImage }}
+	<span class="image main"><img src="{{ . | relURL }}" alt="{{ $heroAlt }}" /></span>
+{{ end }}
+<div class="project-layout{{ if not $hasToc }} project-layout--single-column{{ end }}">
+	<div class="project-layout__content">
+		<div class="project-content">
+			{{ .Content }}
+			{{ partial "project-pagination.html" . }}
+		</div>
+	</div>
+	{{ if $hasToc }}
+		<aside class="project-toc" aria-label="Page contents">
+			<div class="project-toc__inner">
+				<p class="project-toc__eyebrow">On This Page</p>
+				<nav class="project-toc__nav">
+					{{ $toc }}
+				</nav>
+			</div>
+		</aside>
+	{{ end }}
+</div>

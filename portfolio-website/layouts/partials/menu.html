@@ -1,0 +1,20 @@
+<nav id="menu">
+	<h2>Menu</h2>
+	<ul>
+		<li><a href="{{ "/" | relURL }}">Home</a></li>
+		<li><a href="{{ "/portfolio/" | relURL }}">Complete Portfolio</a></li>
+	</ul>
+	<div class="menu-search" data-search-root>
+		<label class="menu-search__label" for="menu-search-input">Search the site</label>
+		<input
+			id="menu-search-input"
+			class="menu-search__input"
+			type="search"
+			name="site-search"
+			placeholder="Search"
+			autocomplete="off"
+			data-search-input />
+		<p class="menu-search__status" data-search-status>Find titles, descriptions, and page content across the site.</p>
+		<div class="menu-search__results" data-search-results hidden></div>
+	</div>
+</nav>

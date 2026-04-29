@@ -1,0 +1,15 @@
+baseURL = "https://austin006.github.io/"
+languageCode = "en-us"
+title = "Austin McGlashan"
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+	name = "Austin McGlashan"
+	description = "Mechanical engineering, aerospace, robotics, and software projects."
+	hero_title = "Engineering projects built across hardware, simulation, and software."
+	hero_text = "A focused portfolio of project work in robotics, CAD, rocketry, controls, embedded systems, and technical computing."
+	intro = "Mechanical Engineer. Problem Solver. Robotics Builder. CAD Designer. Drone Pilot. Rocketry Enthusiast. Software Developer."
+	footer_blurb = "Thanks for scrolling! I am always looking for the next engineering challenge. Let's connect."
+	github = "austin006"
+	linkedin = "austin-mcglashan"
+	youtube = "@austinmcglashan006"

@@ -1,0 +1,26 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $title := .Get "title" | default (printf "%s PDF" .Page.Title) -}}
+{{- $height := .Get "height" | default "700px" -}}
+{{- $resolvedSrc := $src -}}
+
+{{- if and .Page .Page.File (hasPrefix $src "assets/") -}}
+	{{- $relativePath := replaceRE "^assets/" "" $src -}}
+	{{- $resolvedSrc = printf "/%s%s" .Page.File.Dir $relativePath -}}
+{{- else if in $src "/assets/" -}}
+	{{- $resolvedSrc = replaceRE "/assets/" "/" $src -}}
+{{- end -}}
+
+<figure class="project-pdf">
+	<div class="project-pdf__frame">
+		<iframe
+			src="{{ $resolvedSrc | safeURL }}"
+			title="{{ $title }}"
+			loading="lazy"
+			style="height: {{ $height }};">
+		</iframe>
+	</div>
+	<figcaption class="project-pdf__actions">
+		<p class="project-pdf__mobile-note">Open the PDF in a new tab for the best mobile viewing experience.</p>
+		<a class="button small" href="{{ $resolvedSrc | safeURL }}" target="_blank" rel="noopener noreferrer">Open PDF in New Tab</a>
+	</figcaption>
+</figure>

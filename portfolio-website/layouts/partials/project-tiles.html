@@ -1,0 +1,9 @@
+{{ $projects := .projects }}
+{{ $styles := slice "style1" "style2" "style3" "style4" "style5" "style6" }}
+<section class="tiles">
+	{{ range $index, $project := $projects }}
+		{{ if ne $project.File.BaseFileName "project-template" }}
+			{{ partial "project-tile.html" (dict "page" $project "index" $index "style" (index $styles (mod $index (len $styles)))) }}
+		{{ end }}
+	{{ end }}
+</section>

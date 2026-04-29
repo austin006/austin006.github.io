@@ -1,0 +1,33 @@
+<footer id="footer">
+	{{- $githubURL := partial "social-url.html" (dict "platform" "github" "value" .Site.Params.github) -}}
+	{{- $linkedinURL := partial "social-url.html" (dict "platform" "linkedin" "value" .Site.Params.linkedin) -}}
+	{{- $youtubeURL := partial "social-url.html" (dict "platform" "youtube" "value" .Site.Params.youtube) -}}
+	<div class="inner">
+		<section>
+			<h2><a class="footer-home-link" href="{{ "/" | relURL }}">{{ .Site.Params.name | default .Site.Title }}</a></h2>
+			<p>{{ .Site.Params.footer_blurb | default .Site.Params.description }}</p>
+		</section>
+		<section>
+			<h2>Follow</h2>
+			<ul class="icons">
+				{{ with $githubURL }}
+					<li><a href="{{ . | safeURL }}" class="icon brands style2 fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+				{{ end }}
+				{{ with $linkedinURL }}
+					<li><a href="{{ . | safeURL }}" class="icon brands style2 fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+				{{ end }}
+				{{ with $youtubeURL }}
+					<li><a href="{{ . | safeURL }}" class="icon brands style2 fa-youtube" target="_blank" rel="noopener noreferrer"><span class="label">YouTube</span></a></li>
+				{{ end }}
+			</ul>
+		</section>
+		<ul class="copyright">
+			<li>
+				Designed and built using 
+				<a href="https://gohugo.io/">Hugo</a> and 
+				<a href="https://html5up.net">HTML5 UP</a>. 
+				&copy; {{ now.Format "2006" }} Austin McGlashan.
+			</li>
+		</ul>
+	</div>
+</footer>

@@ -1,0 +1,13 @@
+{{ $page := .page }}
+{{ $thumbnail := partial "project-thumbnail.html" (dict "page" $page "index" .index "allowDemoFallback" true) }}
+<article class="{{ .style }}">
+	<span class="image">
+		<img src="{{ $thumbnail | relURL }}" alt="{{ $page.Title }}" />
+	</span>
+	<a href="{{ $page.RelPermalink }}">
+		<h2>{{ $page.Title }}</h2>
+		<div class="content">
+			<p>{{ $page.Params.description | default $page.Params.summary | default $page.Summary }}</p>
+		</div>
+	</a>
+</article>

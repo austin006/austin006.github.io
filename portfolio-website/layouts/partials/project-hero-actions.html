@@ -1,0 +1,40 @@
+{{- $actions := slice -}}
+{{- with .Params.github -}}
+	{{- $actions = $actions | append (dict
+		"label" "View on GitHub"
+		"url" (partial "social-url.html" (dict "platform" "github" "value" .))
+		"variant" "primary"
+		"icon" "brands fa-github"
+		"newTab" true
+	) -}}
+{{- end -}}
+
+{{- range .Params.project_links -}}
+	{{- $actions = $actions | append (dict
+		"label" (.label | default "Learn More")
+		"url" (.url | default "#")
+		"variant" (.variant | default "secondary")
+		"icon" (.icon | default "")
+		"newTab" (or .new_tab .newTab false)
+	) -}}
+{{- end -}}
+
+{{- if gt (len $actions) 0 -}}
+<div class="project-hero-actions">
+	{{- range $actions -}}
+		{{- $class := "button" -}}
+		{{- if eq .variant "primary" -}}
+			{{- $class = "button primary" -}}
+		{{- end -}}
+		{{- if .icon -}}
+			{{- $class = printf "%s icon %s" $class .icon -}}
+		{{- end -}}
+		<a
+			class="{{ $class }}"
+			href="{{ .url | safeURL }}"
+			{{ if .newTab }}target="_blank" rel="noopener noreferrer"{{ end }}>
+			{{ .label }}
+		</a>
+	{{- end -}}
+</div>
+{{- end -}}

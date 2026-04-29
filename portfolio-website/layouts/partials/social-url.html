@@ -1,0 +1,26 @@
+{{- $platform := lower (.platform | default "") -}}
+{{- $value := replaceRE "^[\\s\\r\\n\\t]+|[\\s\\r\\n\\t]+$" "" (printf "%v" (.value | default "")) -}}
+{{- $normalized := replaceRE "^/+" "" $value -}}
+{{- if hasPrefix $value "http://" -}}
+	{{- $value -}}
+{{- else if hasPrefix $value "https://" -}}
+	{{- $value -}}
+{{- else if eq $platform "github" -}}
+	{{- printf "https://github.com/%s" (replaceRE "^@+" "" $normalized) -}}
+{{- else if eq $platform "linkedin" -}}
+	{{- if or (hasPrefix $normalized "in/") (hasPrefix $normalized "company/") (hasPrefix $normalized "school/") -}}
+		{{- printf "https://www.linkedin.com/%s" $normalized -}}
+	{{- else -}}
+		{{- printf "https://www.linkedin.com/in/%s" (replaceRE "^@+" "" $normalized) -}}
+	{{- end -}}
+{{- else if eq $platform "youtube" -}}
+	{{- if hasPrefix $normalized "@" -}}
+		{{- printf "https://www.youtube.com/%s" $normalized -}}
+	{{- else if or (hasPrefix $normalized "channel/") (hasPrefix $normalized "c/") (hasPrefix $normalized "user/") (hasPrefix $normalized "playlist?") (hasPrefix $normalized "watch?") (hasPrefix $normalized "shorts/") -}}
+		{{- printf "https://www.youtube.com/%s" $normalized -}}
+	{{- else -}}
+		{{- printf "https://www.youtube.com/@%s" (replaceRE "^@+" "" $normalized) -}}
+	{{- end -}}
+{{- else -}}
+	{{- $value -}}
+{{- end -}}

@@ -1,0 +1,51 @@
+{{ define "main" }}
+	{{ $projects := where .Site.RegularPages "Section" "portfolio" }}
+	{{ $projects = where $projects "File.BaseFileName" "!=" "project-template" }}
+	{{ $projects = $projects.ByDate.Reverse }}
+	<header id="portfolio-top">
+		<h1>{{ .Title }}</h1>
+		{{ with .Description }}
+			<p>{{ . }}</p>
+		{{ end }}
+	</header>
+
+	<div class="portfolio-view-toggle" data-portfolio-toggle>
+		<span class="portfolio-view-toggle__label">View</span>
+		<div class="portfolio-view-toggle__actions" role="tablist" aria-label="Portfolio view toggle">
+			<button
+				type="button"
+				class="portfolio-view-toggle__button is-active"
+				data-view-button="grid"
+				role="tab"
+				aria-selected="true"
+				aria-pressed="true"
+				aria-controls="portfolio-grid-view">
+				Image Grid
+			</button>
+			<button
+				type="button"
+				class="portfolio-view-toggle__button"
+				data-view-button="table"
+				role="tab"
+				aria-selected="false"
+				aria-pressed="false"
+				aria-controls="portfolio-table-view">
+				Table View
+			</button>
+		</div>
+	</div>
+
+	<section id="portfolio-grid-view" class="portfolio-view-panel" data-view-panel="grid">
+		{{ partial "project-tiles.html" (dict "projects" $projects) }}
+		<div class="page-actions page-actions--portfolio">
+			<a class="button" href="#portfolio-top">Back to Top</a>
+		</div>
+	</section>
+
+	<section id="portfolio-table-view" class="portfolio-view-panel is-hidden" data-view-panel="table" aria-hidden="true">
+		{{ partial "portfolio-table.html" (dict "projects" $projects) }}
+		<div class="page-actions page-actions--portfolio">
+			<a class="button" href="#portfolio-top">Back to Top</a>
+		</div>
+	</section>
+{{ end }}

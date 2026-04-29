@@ -1,0 +1,20 @@
+{{- $src := .Get "src" | default "" -}}
+{{- $title := .Get "title" | default (printf "%s video" .Page.Title) -}}
+{{- $caption := .Get "caption" | default "" -}}
+
+{{- if and .Page .Page.File (hasPrefix $src "assets/") -}}
+	{{- $relativePath := replaceRE "^assets/" "" $src -}}
+	{{- $src = printf "/%s%s" .Page.File.Dir $relativePath -}}
+{{- end -}}
+
+{{- if $src -}}
+<figure class="project-figure project-figure--video">
+	<video class="project-video-file" controls playsinline preload="metadata" aria-label="{{ $title }}">
+		<source src="{{ $src | safeURL }}" type="video/mp4" />
+		Your browser does not support the video tag.
+	</video>
+	{{- with $caption -}}
+		<figcaption class="project-caption project-figure__caption">{{ . }}</figcaption>
+	{{- end -}}
+</figure>
+{{- end -}}

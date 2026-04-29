@@ -1,0 +1,10 @@
+{{ $title := .Get "title" | default "Note" }}
+{{ $variant := .Get "variant" | default "info" }}
+{{ $content := .Inner | .Page.RenderString }}
+
+<aside class="box project-callout project-callout--{{ $variant }}">
+	<h3 class="project-callout__title">{{ $title }}</h3>
+	<div class="project-callout__content">
+		{{ $content }}
+	</div>
+</aside>
