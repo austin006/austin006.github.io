@@ -36,6 +36,7 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
+        working-directory: portfolio-website
         run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
