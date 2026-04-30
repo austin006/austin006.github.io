@@ -1,6 +1,6 @@
 +++
 title = "Name of Your Project"
-date = "20XX-XX-XX"
+date = "2000-01-01"
 description = "One-sentence overview of the project and its outcome."
 summary = "Two to four sentences that explain what you built, your role, the result, and the skills this project demonstrates."
 draft = true
@@ -28,7 +28,7 @@ draft = true
 # new_tab = true
 time_spent_hours = 0
 
-[_build]
+[build]
 render = "never"
 list = "never"
 +++
