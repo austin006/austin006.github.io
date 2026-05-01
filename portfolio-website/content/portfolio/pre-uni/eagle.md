@@ -26,7 +26,7 @@ This information was later published online to make the records searchable for f
 
 ## Results
 
-![](assets/eagle/Eagle1.JPG)
+![](assets/eagle/header.JPG)
 {{< caption >}}Hundreds of unrecorded gravestones{{< /caption >}}
 
 ![](assets/eagle/Eagle2.JPG)

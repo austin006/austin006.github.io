@@ -11,7 +11,10 @@ outcome = "Designed and implemented a complete rover platform that integrated mi
 core_tools = ["Microcontrollers", "Sensors", "Motor Drivers", "PWM", "Mechanical Prototyping", "System Integration"]
 header_alt = "Mini Mars rover prototype and team preparing for a Mars-themed autonomous mission course."
 social_image_alt = "Mini Mars rover mechatronics project featuring the mission layout, team build, and rover demonstrations."
-# duration = "Add project duration here"
+duration = "August 2025 - December 2025"
+
+featured = true
+weight = 5
 +++
 
 ## Overview

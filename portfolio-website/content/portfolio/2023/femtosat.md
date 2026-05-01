@@ -46,7 +46,7 @@ The FemtoSat transmitted altitude, velocity, air pressure, and other environment
 ![](assets/femtosat/FEMTOSAT4.jpg)
 {{< caption >}}The completed FemtoSat assembly{{< /caption >}}
 
-![](assets/femtosat/FEMTOSAT5.jpg)
+![](assets/femtosat/header.jpg)
 {{< caption >}}Our FemtoSat installed in a mini rocket{{< /caption >}}
 
 ![](assets/femtosat/FEMTOSAT6.jpg)

@@ -9,7 +9,7 @@ core_tools = ["Control Barrier Functions", "Lidar", "Robotics", "Safety-Critical
 header_alt = "Lidar-based robotics research visual related to control barrier functions and safe autonomous behavior."
 social_image_alt = "Research project on lidar-based control barrier functions for robotics and safety-critical control."
 # team = "Add lab or course context here"
-# duration = "Add project duration here"
+duration = "January 2025 - April 2026"
 # outcome = "Add the clearest result, experiment, or proof-of-concept milestone here"
 +++
 

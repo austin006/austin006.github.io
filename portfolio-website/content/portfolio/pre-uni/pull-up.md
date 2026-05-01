@@ -30,5 +30,5 @@ I built a pull-up bar in my backyard with the help of my father. I wanted a dedi
 ![](assets/pull-up/PullUp4.JPG)
 {{< caption >}}Leveling the parallel bars before the cement dried{{< /caption >}}
 
-![](assets/pull-up/PullUp1.JPG)
+![](assets/pull-up/header.JPG)
 {{< caption >}}The freshly built pull-up bars{{< /caption >}}

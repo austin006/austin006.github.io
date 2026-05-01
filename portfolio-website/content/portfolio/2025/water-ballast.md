@@ -3,8 +3,6 @@ title = "Rocket Water Ballast System"
 date = "2025-07-30"
 description = "Engineered a post-apogee water ballast ejection system for a high-altitude competition rocket payload."
 summary = "Designed and built a functioning water ballast payload for BYU Rocketry's Experimental High Power Team. The system ejected 2 kg of water during post-apogee descent and flew on BYU's first hybrid rocket launch. This project highlights systems integration, mechanical design, fabrication, and team-based aerospace development."
-featured = true
-weight = 3
 time_spent_hours = 50
 role = "Payload Engineer"
 team = "BYU Rocketry Experimental High Power Team"
@@ -13,6 +11,9 @@ outcome = "Delivered a flight-ready water ballast payload that successfully flew
 core_tools = ["Onshape CAD", "OpenRocket", "3D Printing", "Carbon Fiber Fabrication", "Electronics Integration"]
 header_alt = "BYU Rocketry's Category V hybrid rocket on the launch pad with the water ballast payload integrated inside."
 social_image_alt = "Rocket Water Ballast System project showing a hybrid rocket payload developed for BYU Rocketry."
+
+featured = true
+weight = 6
 
 [[project_links]]
 label = "Team Page"

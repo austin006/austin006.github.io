@@ -9,7 +9,7 @@ team = "BYU High Power Team"
 core_tools = ["High-Power Rocketry", "Systems Integration", "Launch Operations"]
 header_alt = "High-power team rocket hardware staged for assembly, transport, or launch operations."
 social_image_alt = "High-power rocketry project featuring advanced vehicle integration and launch preparation."
-# duration = "Add project duration here"
+duration = "September 2025 - July 2026"
 # outcome = "Add the clearest flight milestone or result here"
 +++
 

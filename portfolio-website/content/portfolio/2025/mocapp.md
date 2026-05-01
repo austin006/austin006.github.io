@@ -11,7 +11,10 @@ outcome = "Established a full simulation-to-flight workflow for indoor GPS-denie
 core_tools = ["Jetson Nano", "ROS 2", "PX4", "Gazebo", "Apptainer", "Motion Capture", "Python", "Matplotlib"]
 header_alt = "X650 quadrotor flying indoors in the motion-capture room during autonomous flight testing."
 social_image_alt = "Autonomous X650 quadrotor project showing indoor mocap flight and ROS 2 / PX4 / Gazebo trajectory development."
-# duration = "Add project duration here"
+duration = "August 2025 - December 2025"
+
+featured = true
+weight = 3
 +++
 
 ## Overview
@@ -44,18 +47,22 @@ The flight-testing workflow supported multiple trajectory types, including:
 
 ### Figure-Eight Flight
 
-{{< videoembed src="assets/mocapp/figure-8-plot.mp4" title="Figure-eight trajectory plot" caption="Figure-eight trajectory generated and visualized in Python before simulation" >}}
+{{< youtube YurecbPknG0 >}}
+{{< caption >}}Figure-eight trajectory generated and visualized in Python before simulation{{< /caption >}}
 
-{{< videoembed src="assets/mocapp/figure-8-sim-2.mp4" title="Figure-eight trajectory in simulation" caption="Figure-eight trajectory in the ROS 2 / PX4 / Gazebo simulation environment" >}}
+{{< youtube _xPo_lsCf04 >}}
+{{< caption >}}Figure-eight trajectory in the ROS 2 / PX4 / Gazebo simulation environment{{< /caption >}}
 
 {{< youtube Gr0EDIGwJrA >}}
 {{< caption >}}Figure-eight trajectory flown on the physical X650 quadrotor in the mocap room{{< /caption >}}
 
 ### Rotating Orbital Trajectory
 
-{{< videoembed src="assets/mocapp/improved-orbital-path-following-plot.mp4" title="Rotating orbital pattern plot" caption="Rotating orbital trajectory generated and visualized in Python before simulation" >}}
+{{< youtube blZAOD6I9xI >}}
+{{< caption >}}Rotating orbital trajectory generated and visualized in Python before simulation{{< /caption >}}
 
-{{< videoembed src="assets/mocapp/improved-orbital-path-following-sim.mp4" title="Rotating orbital pattern in simulation" caption="Rotating orbital trajectory validated in simulation before flight testing" >}}
+{{< youtube LEElBaF_Y80 >}}
+{{< caption >}}Rotating orbital trajectory validated in simulation before flight testing{{< /caption >}}
 
 {{< youtube hQ9VK_JHe44 >}}
 {{< caption >}}Rotating orbital trajectory executed on the physical X650 quadrotor{{< /caption >}}
